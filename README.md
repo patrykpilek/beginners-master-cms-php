@@ -4,7 +4,7 @@
 ### Data Types
 
 - [x] variables in PHP
-- [ ] math
+- [x] math
 - [ ] arrays
 - [ ] associative arrays
 - [ ] practice
