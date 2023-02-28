@@ -5,6 +5,6 @@
 
 - [x] variables in PHP
 - [x] math
-- [ ] arrays
+- [x] arrays
 - [ ] associative arrays
 - [ ] practice
