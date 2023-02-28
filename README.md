@@ -7,4 +7,4 @@
 - [x] math
 - [x] arrays
 - [x] associative arrays
-- [ ] practice
+- [x] practice
