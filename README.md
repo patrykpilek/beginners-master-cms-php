@@ -17,4 +17,4 @@
 - [x] while loop in PHP
 - [x] for loop in PHP
 - [x] foreach loop in PHP
-- [ ] practice
+- [x] practice
