@@ -6,12 +6,8 @@
 </head>
 <body>
     <?php
-        $counter = 0;
-        while($counter <= 10 ){
-            echo $counter . " ";
-            $counter++;
-        //    $counter = $counter + 1;
-
+        for($counter = 0; $counter < 10; $counter++){
+            echo $counter . "<br>" ;
         }
     ?>
 </body>

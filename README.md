@@ -16,5 +16,5 @@
 - [x] switch statements in PHP
 - [x] while loop in PHP
 - [x] for loop in PHP
-- [ ] foreach loop in PHP
+- [x] foreach loop in PHP
 - [ ] practice
