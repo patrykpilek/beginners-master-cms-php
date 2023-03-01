@@ -12,7 +12,7 @@
 ### Control Structures
 
 - [x] if statements
-- [ ] comparison and logical operators
+- [x] comparison and logical operators
 - [ ] switch statements in PHP
 - [ ] while loop in PHP
 - [ ] for loop in PHP
