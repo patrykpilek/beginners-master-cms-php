@@ -14,7 +14,7 @@
 - [x] if statements
 - [x] comparison and logical operators
 - [x] switch statements in PHP
-- [ ] while loop in PHP
+- [x] while loop in PHP
 - [ ] for loop in PHP
 - [ ] foreach loop in PHP
 - [ ] practice
