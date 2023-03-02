@@ -25,5 +25,5 @@
 - [x] function parameters
 - [x] return values from functions
 - [x] global variable and scope
-- [ ] constants
+- [x] constants
 - [ ] practice
