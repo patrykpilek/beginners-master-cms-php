@@ -18,3 +18,13 @@
 - [x] for loop in PHP
 - [x] foreach loop in PHP
 - [x] practice
+
+### Custom Functions
+
+- [x] defining functions
+- [ ] function parameters
+- [ ] return values from functions
+- [ ] global variable and scope
+- [ ] constants
+- [ ] newer way of creating a constant
+- [ ] practice
