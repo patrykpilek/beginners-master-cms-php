@@ -22,9 +22,8 @@
 ### Custom Functions
 
 - [x] defining functions
-- [ ] function parameters
+- [x] function parameters
 - [ ] return values from functions
 - [ ] global variable and scope
 - [ ] constants
-- [ ] newer way of creating a constant
 - [ ] practice
