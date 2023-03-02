@@ -23,7 +23,7 @@
 
 - [x] defining functions
 - [x] function parameters
-- [ ] return values from functions
+- [x] return values from functions
 - [ ] global variable and scope
 - [ ] constants
 - [ ] practice
