@@ -24,6 +24,6 @@
 - [x] defining functions
 - [x] function parameters
 - [x] return values from functions
-- [ ] global variable and scope
+- [x] global variable and scope
 - [ ] constants
 - [ ] practice
