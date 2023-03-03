@@ -32,6 +32,6 @@
 ### PHP Built-in Functions
 
 - [x] math functions
-- [ ] string functions
+- [x] string functions
 - [ ] array functions
 - [ ] practice
