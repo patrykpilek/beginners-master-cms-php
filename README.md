@@ -34,4 +34,4 @@
 - [x] math functions
 - [x] string functions
 - [x] array functions
-- [ ] practice
+- [x] practice
