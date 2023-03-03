@@ -28,3 +28,10 @@
 - [x] constants
 - [x] newer way of creating a constant
 - [x] practice
+
+### PHP Built-in Functions
+
+- [x] math functions
+- [x] string functions
+- [x] array functions
+- [x] practice
