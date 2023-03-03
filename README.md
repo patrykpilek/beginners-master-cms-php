@@ -35,3 +35,11 @@
 - [x] string functions
 - [x] array functions
 - [x] practice
+
+### How To Use Form Data in PHP
+
+- [x] checking for form submission
+- [ ] extracting information from form
+- [ ] validating the form values
+- [ ] external page submission
+- [ ] practice
