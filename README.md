@@ -42,4 +42,4 @@
 - [x] extracting information from form
 - [x] validating the form values
 - [x] external page submission
-- [ ] practice
+- [x] practice
