@@ -41,5 +41,5 @@
 - [x] checking for form submission
 - [x] extracting information from form
 - [x] validating the form values
-- [ ] external page submission
+- [x] external page submission
 - [ ] practice
