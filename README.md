@@ -33,5 +33,5 @@
 
 - [x] math functions
 - [x] string functions
-- [ ] array functions
+- [x] array functions
 - [ ] practice
