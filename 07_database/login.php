@@ -5,10 +5,19 @@ if(isset($_POST['submit'])) {
 
    $connection = mysqli_connect('localhost', 'root', 'secret', 'loginapp');
 
-   if($connection) {
-       echo "connected";
+//   if($connection) {
+//       echo "connected";
+//   } else {
+//       die("not connected");
+//   }
+
+   $query = "INSERT INTO users(username, password) VALUES ('$username','$password')";
+   $result = mysqli_query($connection, $query);
+
+   if(!$result) {
+       die('query failed');
    } else {
-       die("not connected");
+       echo var_dump($result);
    }
 }
 ?>

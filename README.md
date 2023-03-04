@@ -50,7 +50,7 @@
 - [x] markup for login page
 - [x] receiving post data from check
 - [x] connecting to the database using PHP
-- [ ] creating records into the database table with PHP
+- [x] creating records into the database table with PHP
 - [ ] reading information in the database with PHP
 - [ ] creating the update records form
 - [ ] fixing name attribute value
