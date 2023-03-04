@@ -43,3 +43,21 @@
 - [x] validating the form values
 - [x] external page submission
 - [x] practice
+
+### How To Use Databases in PHP
+
+- [x] create and insert database with user table
+- [ ] markup for login page
+- [ ] receiving post data from check
+- [ ] connecting to the database using PHP
+- [ ] creating records into the database table with PHP
+- [ ] reading information in the database with PHP
+- [ ] creating the update records form
+- [ ] fixing name attribute value
+- [ ] query to read id's
+- [ ] query to update username and password
+- [ ] refactoring the update query into a function
+- [ ] delete records from database with PHP
+- [ ] refactoring all database query code into functions
+- [ ] making all files modular and refactoring
+- [ ] practice
