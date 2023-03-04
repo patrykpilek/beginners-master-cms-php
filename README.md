@@ -1,4 +1,4 @@
-# PHP for beginners- Become a PHP Master - CMS Project
+# PHP for beginners - Become a PHP Master - CMS Project
 
 
 ### Data Types
@@ -48,7 +48,7 @@
 
 - [x] create and insert database with user table
 - [x] markup for login page
-- [ ] receiving post data from check
+- [x] receiving post data from check
 - [ ] connecting to the database using PHP
 - [ ] creating records into the database table with PHP
 - [ ] reading information in the database with PHP
