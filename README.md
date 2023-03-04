@@ -49,7 +49,7 @@
 - [x] create and insert database with user table
 - [x] markup for login page
 - [x] receiving post data from check
-- [ ] connecting to the database using PHP
+- [x] connecting to the database using PHP
 - [ ] creating records into the database table with PHP
 - [ ] reading information in the database with PHP
 - [ ] creating the update records form

@@ -3,7 +3,13 @@ if(isset($_POST['submit'])) {
    $username = $_POST['username'];
    $password = $_POST['password'];
 
-   echo $username . " " . $password;
+   $connection = mysqli_connect('localhost', 'root', 'secret', 'loginapp');
+
+   if($connection) {
+       echo "connected";
+   } else {
+       die("not connected");
+   }
 }
 ?>
 <!doctype html>
