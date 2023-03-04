@@ -53,7 +53,7 @@
 - [x] creating records into the database table with PHP
 - [x] reading information in the database with PHP
 - [x] creating the update records form
-- [ ] query to read id's
+- [x] query to read id's
 - [ ] query to update username and password
 - [ ] refactoring the update query into a function
 - [ ] delete records from database with PHP

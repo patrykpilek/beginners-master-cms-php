@@ -1,12 +1,7 @@
 <?php
-include 'db.php';
 
-$query = "SELECT * FROM users";
-$result = mysqli_query($connection, $query);
+include 'functions.php';
 
-if(!$result) {
-    die('query failed');
-}
 ?>
 <!doctype html>
 <html lang="en">
@@ -32,7 +27,9 @@ if(!$result) {
                 <div class="mb-3">
                     <label for="userID">Select user ID</label>
                     <select name="id" id="userID">
-                        <option value="1">1</option>
+                        <?php
+                            showAllData();
+                        ?>
                     </select>
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
