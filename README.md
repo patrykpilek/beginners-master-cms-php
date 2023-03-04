@@ -47,7 +47,7 @@
 ### How To Use Databases in PHP
 
 - [x] create and insert database with user table
-- [ ] markup for login page
+- [x] markup for login page
 - [ ] receiving post data from check
 - [ ] connecting to the database using PHP
 - [ ] creating records into the database table with PHP
