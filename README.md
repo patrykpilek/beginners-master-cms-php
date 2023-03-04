@@ -52,8 +52,7 @@
 - [x] connecting to the database using PHP
 - [x] creating records into the database table with PHP
 - [x] reading information in the database with PHP
-- [ ] creating the update records form
-- [ ] fixing name attribute value
+- [x] creating the update records form
 - [ ] query to read id's
 - [ ] query to update username and password
 - [ ] refactoring the update query into a function
