@@ -51,7 +51,7 @@
 - [x] receiving post data from check
 - [x] connecting to the database using PHP
 - [x] creating records into the database table with PHP
-- [ ] reading information in the database with PHP
+- [x] reading information in the database with PHP
 - [ ] creating the update records form
 - [ ] fixing name attribute value
 - [ ] query to read id's
