@@ -4,10 +4,13 @@ include 'db.php';
 function createUser() {
     if(isset($_POST['submit'])) {
         global $connection;
-        $username = $_POST['username'];
-        $password = $_POST['password'];
+        $username = mysqli_real_escape_string($connection, $_POST['username']);
+        $password =  mysqli_real_escape_string($connection, $_POST['password']);
 
-        $connection = mysqli_connect('localhost', 'root', 'secret', 'loginapp');
+        $hashFormat = "$2y$10$";
+        $salt = "crezystringcharacters23";
+        $hashF_and_salt = $hashFormat . $salt;
+        $password = crypt($password, $hashF_and_salt);
 
         $query = "INSERT INTO users(username, password) VALUES ('$username','$password')";
         $result = mysqli_query($connection, $query);
@@ -53,8 +56,8 @@ function updateUser() {
     global $connection;
 
     if (isset($_POST['submit'])) {
-        $username = $_POST['username'];
-        $password = $_POST['password'];
+        $username = mysqli_real_escape_string($connection, $_POST['username']);
+        $password =  mysqli_real_escape_string($connection, $_POST['password']);
         $id = $_POST['id'];
 
         $query = "UPDATE users SET username = '$username', password = '$password' WHERE id = '$id'";

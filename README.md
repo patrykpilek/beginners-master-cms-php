@@ -60,3 +60,9 @@
 - [x] refactoring all database query code into functions
 - [x] making all files modular and refactoring
 - [x] practice
+
+### PHP Security
+
+- [x] SQL Injection - how to prevent it
+- [x] password encryption
+- [x] practice
