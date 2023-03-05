@@ -33,3 +33,19 @@ function updateUser() {
         }
     }
 }
+
+function deleteUser() {
+    global $connection;
+
+    if (isset($_POST['submit'])) {
+        $id = $_POST['id'];
+
+        $query = "DELETE FROM users WHERE id = '$id'";
+
+        $result = mysqli_query($connection, $query);
+
+        if (!$result) {
+            die("Query failed");
+        }
+    }
+}
