@@ -65,4 +65,4 @@
 
 - [x] SQL Injection - how to prevent it
 - [x] password encryption
-- [ ] practice
+- [x] practice
