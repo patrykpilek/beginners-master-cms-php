@@ -20,6 +20,20 @@ function createUser() {
     }
 }
 
+function readAllUser() {
+    global $connection;
+    $query = "SELECT * FROM users";
+    $result = mysqli_query($connection, $query);
+
+    if(!$result) {
+        die('query failed');
+    }
+
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<pre>". print_r($row) . "</pre>";
+    }
+}
+
 function showAllData() {
     global $connection;
     $query = "SELECT * FROM users";

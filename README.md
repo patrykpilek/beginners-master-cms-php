@@ -58,5 +58,5 @@
 - [x] refactoring the update query into a function
 - [x] delete records from database with PHP
 - [x] refactoring all database query code into functions
-- [ ] making all files modular and refactoring
+- [x] making all files modular and refactoring
 - [ ] practice
