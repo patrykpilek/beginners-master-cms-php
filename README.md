@@ -54,7 +54,7 @@
 - [x] reading information in the database with PHP
 - [x] creating the update records form
 - [x] query to read id's
-- [ ] query to update username and password
+- [x] query to update username and password
 - [ ] refactoring the update query into a function
 - [ ] delete records from database with PHP
 - [ ] refactoring all database query code into functions
