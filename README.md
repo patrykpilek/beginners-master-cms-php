@@ -59,4 +59,4 @@
 - [x] delete records from database with PHP
 - [x] refactoring all database query code into functions
 - [x] making all files modular and refactoring
-- [ ] practice
+- [x] practice
