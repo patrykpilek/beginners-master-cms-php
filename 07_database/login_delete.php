@@ -1,11 +1,8 @@
 <?php
-
-include 'functions.php';
 include 'db.php';
+include 'functions.php';
 
-if(isset($_POST['submit'])) {
-    deleteUser();
-}
+deleteUser();
 
 ?>
 <!doctype html>
@@ -20,10 +17,8 @@ if(isset($_POST['submit'])) {
 <body>
     <div class="container">
         <div class="col-xs-6">
+            <h1 class="text-center">Delete User</h1>
             <form action="login_delete.php" method="post">
-                <div class="mb-3">
-                    <label for="InputUsername" class="form-label">Delete User</label>
-                </div>
                 <div class="mb-3">
                     <label for="userID">Select user ID</label>
                     <select name="id" id="userID">
@@ -32,7 +27,7 @@ if(isset($_POST['submit'])) {
                         ?>
                     </select>
                 </div>
-                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" name="submit" class="btn btn-primary">Delete</button>
 
             </form>
         </div>

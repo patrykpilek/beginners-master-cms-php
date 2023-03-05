@@ -1,11 +1,8 @@
 <?php
-
-include 'functions.php';
 include 'db.php';
+include 'functions.php';
 
-if(isset($_POST['submit'])) {
-    updateUser();
-}
+updateUser();
 
 ?>
 <!doctype html>
@@ -20,6 +17,7 @@ if(isset($_POST['submit'])) {
 <body>
     <div class="container">
         <div class="col-xs-6">
+            <h1 class="text-center">Update</h1>
             <form action="login_update.php" method="post">
                 <div class="mb-3">
                     <label for="InputUsername" class="form-label">Username</label>
@@ -37,7 +35,7 @@ if(isset($_POST['submit'])) {
                         ?>
                     </select>
                 </div>
-                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" name="submit" class="btn btn-primary">Update</button>
 
             </form>
         </div>

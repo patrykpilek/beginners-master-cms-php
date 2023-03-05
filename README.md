@@ -57,6 +57,6 @@
 - [x] query to update username and password
 - [x] refactoring the update query into a function
 - [x] delete records from database with PHP
-- [ ] refactoring all database query code into functions
+- [x] refactoring all database query code into functions
 - [ ] making all files modular and refactoring
 - [ ] practice

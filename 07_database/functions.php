@@ -1,6 +1,25 @@
 <?php
 include 'db.php';
 
+function createUser() {
+    if(isset($_POST['submit'])) {
+        global $connection;
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        $connection = mysqli_connect('localhost', 'root', 'secret', 'loginapp');
+
+        $query = "INSERT INTO users(username, password) VALUES ('$username','$password')";
+        $result = mysqli_query($connection, $query);
+
+        if(!$result) {
+            die('query failed');
+        } else {
+            echo "Record created";
+        }
+    }
+}
+
 function showAllData() {
     global $connection;
     $query = "SELECT * FROM users";
@@ -30,6 +49,8 @@ function updateUser() {
 
         if (!$result) {
             die("Query failed");
+        } else {
+            echo "Record updated";
         }
     }
 }
@@ -46,6 +67,8 @@ function deleteUser() {
 
         if (!$result) {
             die("Query failed");
+        } else {
+            echo "Record deleted";
         }
     }
 }
