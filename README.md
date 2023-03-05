@@ -1,4 +1,4 @@
-# PHP for beginners- Become a PHP Master - CMS Project
+# PHP for beginners - Become a PHP Master - CMS Project
 
 
 ### Data Types
@@ -42,4 +42,21 @@
 - [x] extracting information from form
 - [x] validating the form values
 - [x] external page submission
+- [x] practice
+
+### How To Use Databases in PHP
+
+- [x] create and insert database with user table
+- [x] markup for login page
+- [x] receiving post data from check
+- [x] connecting to the database using PHP
+- [x] creating records into the database table with PHP
+- [x] reading information in the database with PHP
+- [x] creating the update records form
+- [x] query to read id's
+- [x] query to update username and password
+- [x] refactoring the update query into a function
+- [x] delete records from database with PHP
+- [x] refactoring all database query code into functions
+- [x] making all files modular and refactoring
 - [x] practice
