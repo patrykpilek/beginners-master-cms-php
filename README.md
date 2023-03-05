@@ -64,5 +64,5 @@
 ### PHP Security
 
 - [x] SQL Injection - how to prevent it
-- [ ] password encryption
+- [x] password encryption
 - [ ] practice
