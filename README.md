@@ -55,7 +55,7 @@
 - [x] creating the update records form
 - [x] query to read id's
 - [x] query to update username and password
-- [ ] refactoring the update query into a function
+- [x] refactoring the update query into a function
 - [ ] delete records from database with PHP
 - [ ] refactoring all database query code into functions
 - [ ] making all files modular and refactoring
