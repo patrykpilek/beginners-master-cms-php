@@ -73,5 +73,5 @@
 - [x] using the post super global
 - [x] setting cookies with php
 - [x] reading cookies in php
-- [ ] how use sessions in php
+- [x] how use sessions in php
 - [ ] practice
