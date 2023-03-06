@@ -66,3 +66,13 @@
 - [x] SQL Injection - how to prevent it
 - [x] password encryption
 - [x] practice
+
+### PHP And The Web
+
+- [x] using the get super global
+- [ ] using the post super global 
+- [ ] about cookies in php
+- [ ] setting cookies with php
+- [ ] reading cookies in php
+- [ ] how use sessions in php
+- [ ] practice
