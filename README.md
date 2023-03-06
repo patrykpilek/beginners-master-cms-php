@@ -70,8 +70,7 @@
 ### PHP And The Web
 
 - [x] using the get super global
-- [ ] using the post super global 
-- [ ] about cookies in php
+- [x] using the post super global
 - [ ] setting cookies with php
 - [ ] reading cookies in php
 - [ ] how use sessions in php
