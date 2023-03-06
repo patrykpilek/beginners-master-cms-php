@@ -71,7 +71,7 @@
 
 - [x] using the get super global
 - [x] using the post super global
-- [ ] setting cookies with php
+- [x] setting cookies with php
 - [ ] reading cookies in php
 - [ ] how use sessions in php
 - [ ] practice
