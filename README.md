@@ -74,4 +74,4 @@
 - [x] setting cookies with php
 - [x] reading cookies in php
 - [x] how use sessions in php
-- [ ] practice
+- [x] practice
