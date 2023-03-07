@@ -82,7 +82,7 @@
 - [x] what are method and how to create them
 - [x] how to instantiate a class
 - [x] adding properties to our class
-- [ ] class inheritance
+- [x] class inheritance
 - [ ] constructors
 - [ ] data access
 - [ ] static data in classes
