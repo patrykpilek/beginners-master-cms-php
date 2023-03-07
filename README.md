@@ -75,3 +75,15 @@
 - [x] reading cookies in php
 - [x] how use sessions in php
 - [x] practice
+
+### Object-Oriented Programming PHP Introduction
+
+- [x] what are classes and how to define them in PHP
+- [ ] What are method and how to create them
+- [ ] hwo to instantiate a class
+- [ ] adding properties to our class
+- [ ] class inheritance
+- [ ] constructors
+- [ ] data access
+- [ ] static data in classes
+- [ ] practice
