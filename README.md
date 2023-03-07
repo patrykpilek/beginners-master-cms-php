@@ -81,7 +81,7 @@
 - [x] what are classes and how to define them in PHP
 - [x] what are method and how to create them
 - [x] how to instantiate a class
-- [ ] adding properties to our class
+- [x] adding properties to our class
 - [ ] class inheritance
 - [ ] constructors
 - [ ] data access
