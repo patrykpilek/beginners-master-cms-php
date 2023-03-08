@@ -87,3 +87,10 @@
 - [x] data access
 - [x] static data in classes
 - [x] practice
+
+### Working With Files
+
+- [x] opening and creating files
+- [ ] writing to files
+- [ ] reading files
+- [ ] deleting files
