@@ -85,5 +85,5 @@
 - [x] class inheritance
 - [x] constructors
 - [x] data access
-- [ ] static data in classes
+- [x] static data in classes
 - [ ] practice
