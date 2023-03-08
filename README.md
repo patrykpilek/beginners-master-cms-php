@@ -86,4 +86,4 @@
 - [x] constructors
 - [x] data access
 - [x] static data in classes
-- [ ] practice
+- [x] practice
