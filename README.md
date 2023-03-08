@@ -92,5 +92,5 @@
 
 - [x] opening and creating files
 - [x] writing to files
-- [ ] reading files
+- [x] reading files
 - [ ] deleting files
