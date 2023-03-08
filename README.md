@@ -91,6 +91,6 @@
 ### Working With Files
 
 - [x] opening and creating files
-- [ ] writing to files
+- [x] writing to files
 - [ ] reading files
 - [ ] deleting files
