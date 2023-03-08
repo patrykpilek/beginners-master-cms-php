@@ -83,7 +83,7 @@
 - [x] how to instantiate a class
 - [x] adding properties to our class
 - [x] class inheritance
-- [ ] constructors
+- [x] constructors
 - [ ] data access
 - [ ] static data in classes
 - [ ] practice
