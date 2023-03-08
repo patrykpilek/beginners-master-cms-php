@@ -84,6 +84,6 @@
 - [x] adding properties to our class
 - [x] class inheritance
 - [x] constructors
-- [ ] data access
+- [x] data access
 - [ ] static data in classes
 - [ ] practice
