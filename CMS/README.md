@@ -6,8 +6,7 @@
 - [x] connecting to the database with php
 - [x] making our files reusable
 - [x] inserting data into category table and displaying it
-- [ ] creating the posts table
-- [ ] post comment count update
+- [x] creating the posts table
 - [ ] inserting data into the posts table and displaying it
 - [ ] inserting the post image and displaying it
 - [ ] creating a custom search engine part 1
