@@ -5,7 +5,7 @@
 - [x] creating database and category table for the cms
 - [x] connecting to the database with php
 - [x] making our files reusable
-- [ ] inserting data into category table and displaying it
+- [x] inserting data into category table and displaying it
 - [ ] creating the posts table
 - [ ] post comment count update
 - [ ] inserting data into the posts table and displaying it
