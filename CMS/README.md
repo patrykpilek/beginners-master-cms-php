@@ -10,6 +10,6 @@
 - [x] inserting data into the posts table and displaying it
 - [x] inserting the post image and displaying it
 - [x] creating a custom search engine part 1
-- [ ] creating a custom search engine part 2
+- [x] creating a custom search engine part 2
 - [ ] creating a custom search engine part 3
 - [ ] adding categories to the sidebar
