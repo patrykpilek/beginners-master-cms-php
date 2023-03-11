@@ -12,4 +12,4 @@
 - [x] creating a custom search engine part 1
 - [x] creating a custom search engine part 2
 - [x] creating a custom search engine part 3
-- [ ] adding categories to the sidebar
+- [x] adding categories to the sidebar
