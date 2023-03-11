@@ -8,7 +8,7 @@
 - [x] inserting data into category table and displaying it
 - [x] creating the posts table
 - [x] inserting data into the posts table and displaying it
-- [ ] inserting the post image and displaying it
+- [x] inserting the post image and displaying it
 - [ ] creating a custom search engine part 1
 - [ ] creating a custom search engine part 2
 - [ ] creating a custom search engine part 3
