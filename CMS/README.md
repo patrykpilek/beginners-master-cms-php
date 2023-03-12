@@ -26,6 +26,6 @@
 - [x] adding a special function to our header file
 - [x] deleting categories
 - [x] updating and editing categories part 1
-- [ ] updating and editing categories part 2
+- [x] updating and editing categories part 2
 - [ ] refactoring category code part 1
 - [ ] refactoring category code part 2
