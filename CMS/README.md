@@ -1,6 +1,7 @@
 # CMS Project - Blogging System
 
-### Front End 
+### Front End
+
 - [x] adding our assets / working structure 
 - [x] creating database and category table for the cms
 - [x] connecting to the database with php
@@ -13,3 +14,18 @@
 - [x] creating a custom search engine part 2
 - [x] creating a custom search engine part 3
 - [x] adding categories to the sidebar
+
+### Categories
+
+- [x] creating reusable code in the admin
+- [x] creating the navigation link to admin
+- [x] creating the admin category page part 1
+- [x] creating the admin category page part 2
+- [x] displaying data in category page
+- [x] adding categories
+- [x] adding a special function to our header file
+- [x] deleting categories
+- [x] updating and editing categories part 1
+- [x] updating and editing categories part 2
+- [x] refactoring category code part 1
+- [x] refactoring category code part 2
