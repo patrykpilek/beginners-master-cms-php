@@ -28,4 +28,4 @@
 - [x] updating and editing categories part 1
 - [x] updating and editing categories part 2
 - [x] refactoring category code part 1
-- [ ] refactoring category code part 2
+- [x] refactoring category code part 2
