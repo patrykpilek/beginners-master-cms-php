@@ -27,6 +27,20 @@
                             </div>
                         </form>
                     </div><!--Add Category Form-->
+
+                    <div class="col-xs-6">
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Category Title</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
             </div>
             <!-- /.row -->

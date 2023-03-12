@@ -20,7 +20,7 @@
 - [x] creating reusable code in the admin
 - [x] creating the navigation link to admin
 - [x] creating the admin category page part 1
-- [ ] creating the admin category page part 2
+- [x] creating the admin category page part 2
 - [ ] displaying data in category page
 - [ ] adding categories
 - [ ] adding a special function to our header file
