@@ -21,7 +21,7 @@
 - [x] creating the navigation link to admin
 - [x] creating the admin category page part 1
 - [x] creating the admin category page part 2
-- [ ] displaying data in category page
+- [x] displaying data in category page
 - [ ] adding categories
 - [ ] adding a special function to our header file
 - [ ] deleting categories
