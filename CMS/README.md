@@ -23,7 +23,7 @@
 - [x] creating the admin category page part 2
 - [x] displaying data in category page
 - [x] adding categories
-- [ ] adding a special function to our header file
+- [x] adding a special function to our header file
 - [ ] deleting categories
 - [ ] updating and editing categories part 1
 - [ ] updating and editing categories part 2
