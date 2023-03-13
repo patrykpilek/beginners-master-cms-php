@@ -44,6 +44,6 @@
 - [x] finally updating posts
 - [x] relating categories to posts and displaying it
 - [x] adding category dropdown to the add post page
-- [ ] adding individual post page and link
+- [x] adding individual post page and link
 - [ ] creating the category page
 - [ ] setting up some links and making an excerpt
