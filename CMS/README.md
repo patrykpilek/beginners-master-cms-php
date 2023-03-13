@@ -45,5 +45,5 @@
 - [x] relating categories to posts and displaying it
 - [x] adding category dropdown to the add post page
 - [x] adding individual post page and link
-- [ ] creating the category page
+- [x] creating the category page
 - [ ] setting up some links and making an excerpt
