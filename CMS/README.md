@@ -33,7 +33,7 @@
 ### Posts
 
 - [x] creating a html table in admin to display a list of posts
-- [ ] displaying posts list in admin
+- [x] displaying posts list in admin
 - [ ] including pages based on condition technique
 - [ ] creating post html form in admin
 - [ ] inserting post data from admin
