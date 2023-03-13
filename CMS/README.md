@@ -43,7 +43,7 @@
 - [x] dynamic category editing / image display
 - [x] finally updating posts
 - [x] relating categories to posts and displaying it
-- [ ] adding category dropdown to the add post page
+- [x] adding category dropdown to the add post page
 - [ ] adding individual post page and link
 - [ ] creating the category page
 - [ ] setting up some links and making an excerpt
