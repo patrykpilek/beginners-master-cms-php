@@ -1,48 +1,62 @@
+<?php
+
+if(isset($_GET['p_id'])){
+    $the_post_id = $_GET['p_id'];
+}
+
+$query = "SELECT * FROM posts WHERE post_id = $the_post_id";
+$select_posts_by_id = mysqli_query($connection, $query);
+
+while($row = mysqli_fetch_assoc($select_posts_by_id)) {
+    $post_id            = $row['post_id'];
+    $post_author        = $row['post_author'];
+    $post_title         = $row['post_title'];
+    $post_category_id   = $row['post_category_id'];
+    $post_status        = $row['post_status'];
+    $post_image         = $row['post_image'];
+    $post_content       = $row['post_content'];
+    $post_tags          = $row['post_tags'];
+    $post_comment_count = $row['post_comment_count'];
+    $post_date          = $row['post_date'];
+}
+
+?>
+
 <form action="" method="post" enctype="multipart/form-data">
 
     <div class="form-group">
-        <label for="title">Post Title</label>
-        <input value="" type="text" class="form-control" name="post_title">
+        <label for="post-title">Post Title</label>
+        <input id="post-title" value="<?php echo $post_title ?>" type="text" class="form-control" name="title">
     </div>
 
     <div class="form-group">
-        <label for="categories">Categories</label>
-        <select name="post_category" id="">
-            <option selected value='teg'>tag</option>
-        </select>
+        <label for="post-categories">Post Categories ID</label>
+        <input id="post-categories" value="<?php echo $post_category_id ?>" type="text" class="form-control" name="post_category_id">
     </div>
 
     <div class="form-group">
-        <label for="users">Users</label>
-        <select name="post_user" id="">
-            <option value='patryk'>patryk</option>
-        </select>
+        <label for="post-author">Post Author</label>
+        <input id="post-author" value="<?php echo $post_author; ?>" type="text" class="form-control" name="author">
     </div>
 
     <div class="form-group">
-        <label for="title">Post Author</label>
-        <input value="" type="text" class="form-control" name="post_user">
+        <label for="post-status">Post Status</label>
+        <input id="post-status" value="<?php echo $post_status ?>" type="text" class="form-control" name="post_status">
     </div>
 
     <div class="form-group">
-        <select name="post_status" id="">
-            <option value='draft'>Draft</option>
-        </select>
+        <label for="post-image">Post Image</label>
+        <input id="post-image" type="file" name="image">
     </div>
 
     <div class="form-group">
-        <img width="100" src="" alt="">
-        <input type="file" name="image">
-    </div>
-
-    <div class="form-group">
-        <label for="post_tags">Post Tags</label>
-        <input value="" type="text" class="form-control" name="post_tags">
+        <label for="post-tags">Post Tags</label>
+        <input id="post-tags" value="<?php echo $post_tags ?>" type="text" class="form-control" name="post_tags">
     </div>
 
     <div class="form-group">
         <label for="post_content">Post Content</label>
-        <textarea class="form-control" name="post_content" id="" cols="30" rows="10"></textarea>
+        <textarea class="form-control" name="post_content" id="" cols="30" rows="10"><?php echo $post_content ?></textarea>
     </div>
 
     <div class="form-group">
