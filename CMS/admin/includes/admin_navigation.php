@@ -42,7 +42,7 @@
                             class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="posts_dropdown" class="collapse">
                     <li>
-                        <a href="#">View All Posts</a>
+                        <a href="/admin/posts.php">View All Posts</a>
                     </li>
                     <li>
                         <a href="#">Add Post</a>
@@ -50,7 +50,7 @@
                 </ul>
             </li>
             <li>
-                <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Categories</a>
+                <a href="/admin/categories.php"><i class="fa fa-fw fa-wrench"></i> Categories</a>
             </li>
             <li class="active">
                 <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Comments</a>

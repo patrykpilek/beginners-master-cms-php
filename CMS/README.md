@@ -29,3 +29,21 @@
 - [x] updating and editing categories part 2
 - [x] refactoring category code part 1
 - [x] refactoring category code part 2
+
+### Posts
+
+- [x] creating a html table in admin to display a list of posts
+- [ ] displaying posts list in admin
+- [ ] including pages based on condition technique
+- [ ] creating post html form in admin
+- [ ] inserting post data from admin
+- [ ] deleting posts in admin
+- [ ] creating the html edit form post page
+- [ ] displaying the edit data in post edit page
+- [ ] dynamic category editing / image display
+- [ ] finally updating posts
+- [ ] relating categories to posts and displaying it
+- [ ] adding category dropdown to the add post page
+  - [ ]adding individual post page and link
+- [ ] creating the category page
+- [ ] setting up some links and making an excerpt
