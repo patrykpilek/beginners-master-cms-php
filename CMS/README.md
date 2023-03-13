@@ -35,7 +35,7 @@
 - [x] creating a html table in admin to display a list of posts
 - [x] displaying posts list in admin
 - [x] including pages based on condition technique
-- [ ] creating post html form in admin
+- [x] creating post html form in admin
 - [ ] inserting post data from admin
 - [ ] deleting posts in admin
 - [ ] creating the html edit form post page
@@ -44,6 +44,6 @@
 - [ ] finally updating posts
 - [ ] relating categories to posts and displaying it
 - [ ] adding category dropdown to the add post page
-- [ ]adding individual post page and link
+- [ ] adding individual post page and link
 - [ ] creating the category page
 - [ ] setting up some links and making an excerpt
