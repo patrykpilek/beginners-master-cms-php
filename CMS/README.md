@@ -36,7 +36,7 @@
 - [x] displaying posts list in admin
 - [x] including pages based on condition technique
 - [x] creating post html form in admin
-- [ ] inserting post data from admin
+- [x] inserting post data from admin
 - [ ] deleting posts in admin
 - [ ] creating the html edit form post page
 - [ ] displaying the edit data in post edit page

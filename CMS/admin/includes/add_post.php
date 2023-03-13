@@ -15,7 +15,12 @@ if(isset($_POST['create_post'])) {
 
     move_uploaded_file($post_image_temp, "../admin/images/$post_image" );
 
-    echo "done";
+    $query = "INSERT INTO posts(post_category_id, post_title, post_user, post_date, post_image ,post_content, post_tags, post_status) ";
+    $query .= "VALUES('{$post_category_id}','{$post_title}','{$post_user}',now(), '{$post_image}', '{$post_content}', '{$post_tags}', '{$post_status}') ";
+
+    $create_post_query = mysqli_query($connection, $query);
+
+    confirmQuery($create_post_query);
 }
 ?>
 <form action="" method="post" enctype="multipart/form-data">
