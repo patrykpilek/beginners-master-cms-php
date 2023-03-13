@@ -42,7 +42,7 @@
 - [x] displaying the edit data in post edit page
 - [x] dynamic category editing / image display
 - [x] finally updating posts
-- [ ] relating categories to posts and displaying it
+- [x] relating categories to posts and displaying it
 - [ ] adding category dropdown to the add post page
 - [ ] adding individual post page and link
 - [ ] creating the category page
