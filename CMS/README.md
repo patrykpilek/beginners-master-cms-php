@@ -46,4 +46,4 @@
 - [x] adding category dropdown to the add post page
 - [x] adding individual post page and link
 - [x] creating the category page
-- [ ] setting up some links and making an excerpt
+- [x] setting up some links and making an excerpt
