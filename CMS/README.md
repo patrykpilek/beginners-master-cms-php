@@ -55,7 +55,7 @@
 - [x] creating the query for displaying comments in admin part 1
 - [x] creating the query for displaying comments in admin part 2
 - [x] inserting new fields in front end comment form ond testing it
-- [ ] creating the frond end comment insert query
+- [x] creating the frond end comment insert query
 - [ ] finishing the query to send comment data (front end)
 - [ ] relating comments to posts
 - [ ] deleting comments
