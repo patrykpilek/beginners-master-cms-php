@@ -10,6 +10,8 @@
         <th>Tags</th>
         <th>Comments</th>
         <th>Date</th>
+        <th>Edit</th>
+        <th>Delete</th>
     </tr>
     </thead>
     <tbody>
@@ -43,9 +45,6 @@
 
             echo "<td>$cat_title</td>";
         }
-
-        echo "<td>$post_category_id</td>";
-
 
         echo "<td>$post_status</td>";
         echo "<td><img width='100' src='/admin/images/$post_image' alt='image'></td>";
