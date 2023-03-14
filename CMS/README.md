@@ -59,7 +59,7 @@
 - [x] finishing the query to send comment data (front end)
 - [x] relating comments to posts
 - [x] deleting comments
-- [ ] approving and unapproving comments
+- [x] approving and unapproving comments
 - [ ] displaying comments based on approval
 - [ ] increasing comments count
 - [ ] adjustments to visual for comments
