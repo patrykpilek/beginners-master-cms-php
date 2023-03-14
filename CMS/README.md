@@ -60,7 +60,7 @@
 - [x] relating comments to posts
 - [x] deleting comments
 - [x] approving and unapproving comments
-- [ ] displaying comments based on approval
+- [x] displaying comments based on approval
 - [ ] increasing comments count
 - [ ] adjustments to visual for comments
 - [ ] adjustments for comments and displaying post based on status
