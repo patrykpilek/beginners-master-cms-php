@@ -57,7 +57,7 @@
 - [x] inserting new fields in front end comment form ond testing it
 - [x] creating the frond end comment insert query
 - [x] finishing the query to send comment data (front end)
-- [ ] relating comments to posts
+- [x] relating comments to posts
 - [ ] deleting comments
 - [ ] approving and unapproving comments
 - [ ] displaying comments based on approval
