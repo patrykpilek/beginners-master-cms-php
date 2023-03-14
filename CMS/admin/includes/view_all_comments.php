@@ -46,12 +46,11 @@
 
         echo "<td>$comment_email</td>";
         echo "<td>$comment_status</td>";
+        echo "<td>Some Title</td>";
         echo "<td>$comment_date</td>";
-        echo "<td><a href='posts.php?source=edit_comment&p_id={$comment_id}'>Approve</a></td>";
-        echo "<td><a href='posts.php?delete={$comment_id}'>Unapprove</a></td>";
-
-        echo "<td><a href='posts.php?source=edit_comment&p_id={$comment_id}'>Edit</a></td>";
-        echo "<td><a href='posts.php?delete={$comment_id}'>Delete</a></td>";
+        echo "<td><a href='comments.php'>Approve</a></td>";
+        echo "<td><a href='comments.php'>Unapprove</a></td>";
+        echo "<td><a href='comments.php'>Delete</a></td>";
         echo "</tr>";
     }
     ?>
