@@ -62,5 +62,4 @@
 - [x] approving and unapproving comments
 - [x] displaying comments based on approval
 - [x] increasing comments count
-- [ ] adjustments to visual for comments
-- [ ] adjustments for comments and displaying post based on status
+- [x] adjustments for comments and displaying post based on status
