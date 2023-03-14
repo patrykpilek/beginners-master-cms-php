@@ -58,7 +58,7 @@
 - [x] creating the frond end comment insert query
 - [x] finishing the query to send comment data (front end)
 - [x] relating comments to posts
-- [ ] deleting comments
+- [x] deleting comments
 - [ ] approving and unapproving comments
 - [ ] displaying comments based on approval
 - [ ] increasing comments count
