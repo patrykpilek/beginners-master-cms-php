@@ -51,7 +51,7 @@
 ### Comments
 
 - [x] creating the comments table and inserting data
-- [ ] creating the comments page and HTML form in admin
+- [x] creating the comments page and HTML form in admin
 - [ ] creating the query for displaying comments in admin part 1
 - [ ] creating the query for displaying comments in admin part 2
 - [ ] inserting new fields in front end comment form ond testing it
