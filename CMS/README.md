@@ -47,3 +47,20 @@
 - [x] adding individual post page and link
 - [x] creating the category page
 - [x] setting up some links and making an excerpt
+
+### Comments
+
+- [x] creating the comments table and inserting data
+- [ ] creating the comments page and HTML form in admin
+- [ ] creating the query for displaying comments in admin part 1
+- [ ] creating the query for displaying comments in admin part 2
+- [ ] inserting new fields in front end comment form ond testing it
+- [ ] creating the frond end comment insert query
+- [ ] finishing the query to send comment data (front end)
+- [ ] relating comments to posts
+- [ ] deleting comments
+- [ ] approving and unapproving comments
+- [ ] displaying comments based on approval
+- [ ] increasing comments count
+- [ ] adjustments to visual for comments
+- [ ] adjustments for comments and displaying post based on status
