@@ -61,6 +61,6 @@
 - [x] deleting comments
 - [x] approving and unapproving comments
 - [x] displaying comments based on approval
-- [ ] increasing comments count
+- [x] increasing comments count
 - [ ] adjustments to visual for comments
 - [ ] adjustments for comments and displaying post based on status
