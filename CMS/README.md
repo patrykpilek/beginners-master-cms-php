@@ -78,6 +78,6 @@
 - [x] deleting users
 - [x] changing user roles
 - [x] setting up the edit user page
-- [ ] displaying user values in edit page
+- [x] displaying user values in edit page
 - [ ] adding select options to user role
 - [ ] updating user
