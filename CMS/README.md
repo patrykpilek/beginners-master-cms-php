@@ -77,7 +77,7 @@
 - [x] adding users in admin part 4
 - [x] deleting users
 - [x] changing user roles
-- [ ] setting up the edit user page
+- [x] setting up the edit user page
 - [ ] displaying user values in edit page
 - [ ] adding select options to user role
 - [ ] updating user
