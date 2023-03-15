@@ -1,7 +1,12 @@
 <?php
 
 if(isset($_POST['create_user'])) {
-    echo "Test";
+    $user_firstname    = $_POST['user_firstname'];
+    $user_lastname     = $_POST['user_lastname'];
+    $user_role         = $_POST['user_role'];
+    $username          = $_POST['username'];
+    $user_email        = $_POST['user_email'];
+    $user_password     = $_POST['user_password'];
 }
 
 ?>
@@ -20,19 +25,9 @@ if(isset($_POST['create_user'])) {
     <div class="form-group">
         <label for="role">User Role</label>
         <select name="user_role" id="role">
-            <?php
-                $query = "SELECT * FROM users";
-                $select_users = mysqli_query($connection, $query);
-
-                confirmQuery($select_users);
-
-                while($row = mysqli_fetch_assoc($select_users )) {
-                    $user_id = $row['user_id'];
-                    $user_role = $row['user_role'];
-
-                    echo "<option value='$user_id'>{$user_role}</option>";
-                }
-            ?>
+            <option value="">Select Options</option>
+            <option value="admin">Admin</option>
+            <option value="subscriber">Subscriber</option>
         </select>
     </div>
 

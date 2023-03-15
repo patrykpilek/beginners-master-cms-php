@@ -72,7 +72,7 @@
 - [x] creating the display query for users
 - [x] displaying users in admin
 - [x] adding users in admin part 1
-- [ ] adding users in admin part 2
+- [x] adding users in admin part 2
 - [ ] adding users in admin part 3
 - [ ] adding users in admin part 4
 - [ ] deleting users
