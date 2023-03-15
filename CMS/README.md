@@ -70,7 +70,7 @@
 - [x] creating users pages and links
 - [x] modifying user table heading
 - [x] creating the display query for users
-- [ ] displaying users in admin
+- [x] displaying users in admin
 - [ ] adding users in admin part 1
 - [ ] adding users in admin part 2
 - [ ] adding users in admin part 3
