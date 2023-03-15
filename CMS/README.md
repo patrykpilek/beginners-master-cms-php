@@ -67,7 +67,7 @@
 ### Users
 
 - [x] creating the users table and data insert
-- [ ] creating users pages and links
+- [x] creating users pages and links
 - [ ] modifying user table heading
 - [ ] creating the display query for users
 - [ ] displaying users in admin
