@@ -69,7 +69,7 @@
 - [x] creating the users table and data insert
 - [x] creating users pages and links
 - [x] modifying user table heading
-- [ ] creating the display query for users
+- [x] creating the display query for users
 - [ ] displaying users in admin
 - [ ] adding users in admin part 1
 - [ ] adding users in admin part 2
