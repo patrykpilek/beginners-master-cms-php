@@ -71,7 +71,7 @@
 - [x] modifying user table heading
 - [x] creating the display query for users
 - [x] displaying users in admin
-- [ ] adding users in admin part 1
+- [x] adding users in admin part 1
 - [ ] adding users in admin part 2
 - [ ] adding users in admin part 3
 - [ ] adding users in admin part 4
