@@ -79,5 +79,4 @@
 - [x] changing user roles
 - [x] setting up the edit user page
 - [x] displaying user values in edit page
-- [ ] adding select options to user role
-- [ ] updating user
+- [x] updating user
