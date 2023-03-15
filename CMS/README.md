@@ -63,3 +63,21 @@
 - [x] displaying comments based on approval
 - [x] increasing comments count
 - [x] adjustments for comments and displaying post based on status
+
+### Users
+
+- [x] creating the users table and data insert
+- [ ] creating users pages and links
+- [ ] modifying user table heading
+- [ ] creating the display query for users
+- [ ] displaying users in admin
+- [ ] adding users in admin part 1
+- [ ] adding users in admin part 2
+- [ ] adding users in admin part 3
+- [ ] adding users in admin part 4
+- [ ] deleting users
+- [ ] changing user roles
+- [ ] setting up the edit user page
+- [ ] displaying user values in edit page
+- [ ] adding select options to user role
+- [ ] updating user
