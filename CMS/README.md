@@ -74,7 +74,7 @@
 - [x] adding users in admin part 1
 - [x] adding users in admin part 2
 - [x] adding users in admin part 3
-- [ ] adding users in admin part 4
+- [x] adding users in admin part 4
 - [ ] deleting users
 - [ ] changing user roles
 - [ ] setting up the edit user page

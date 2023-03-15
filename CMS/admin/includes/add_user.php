@@ -8,6 +8,8 @@ if(isset($_POST['create_user'])) {
     $user_email        = $_POST['user_email'];
     $user_password     = $_POST['user_password'];
 
+    $user_password = password_hash($user_password, PASSWORD_BCRYPT, array('cost' => 10));
+
     $query = "INSERT INTO users(user_firstname, user_lastname, user_role,username, user_email, user_password) ";
     $query .= "VALUES('{$user_firstname}', '{$user_lastname}', '{$user_role}', '{$username}', '{$user_email}', '{$user_password}')";
 
@@ -50,7 +52,7 @@ if(isset($_POST['create_user'])) {
 
     <div class="form-group">
         <label for="password">Password</label>
-        <input type="text" id="password" class="form-control" name="user_password">
+        <input type="password" id="password" class="form-control" name="user_password">
     </div>
 
     <div class="form-group">
