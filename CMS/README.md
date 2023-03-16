@@ -85,7 +85,7 @@
 
 - [x] creating the login form
 - [x] making the login page
-- [ ] select user query
+- [x] select user query
 - [ ] validating user query front end
 - [ ] setting values with sessions
 - [ ] validating user admin
