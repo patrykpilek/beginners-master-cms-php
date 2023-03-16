@@ -95,5 +95,5 @@
 ### Profile
 
 - [x] creating the profile page
-- [ ] displaying user data
+- [x] displaying user data
 - [ ] updating user data
