@@ -89,5 +89,5 @@
 - [x] validating user query front end
 - [x] setting values with sessions
 - [x] validating user admin
-- [ ] logout page improved validation
+- [x] logout page improved validation
 - [ ] login improve

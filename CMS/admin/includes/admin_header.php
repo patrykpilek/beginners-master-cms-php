@@ -4,10 +4,8 @@ session_start();
 include "../includes/db.php";
 include "functions.php";
 
-if(isset($_SESSION['user_role'])) {
-    if($_SESSION['user_role'] !== 'admin') {
-        header("location: ../index.php");
-    }
+if(!isset($_SESSION['user_role'])) {
+    header("location: ../index.php");
 }
 ?>
 <!DOCTYPE html>
