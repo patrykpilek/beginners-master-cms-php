@@ -84,7 +84,7 @@
 ### Users
 
 - [x] creating the login form
-- [ ] making the login page
+- [x] making the login page
 - [ ] select user query
 - [ ] validating user query front end
 - [ ] setting values with sessions
