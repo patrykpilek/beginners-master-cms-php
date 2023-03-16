@@ -96,4 +96,4 @@
 
 - [x] creating the profile page
 - [x] displaying user data
-- [ ] updating user data
+- [x] updating user data
