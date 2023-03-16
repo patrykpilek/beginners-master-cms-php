@@ -90,4 +90,4 @@
 - [x] setting values with sessions
 - [x] validating user admin
 - [x] logout page improved validation
-- [ ] login improve
+- [x] login improve
