@@ -80,3 +80,14 @@
 - [x] setting up the edit user page
 - [x] displaying user values in edit page
 - [x] updating user
+
+### Users
+
+- [x] creating the login form
+- [ ] making the login page
+- [ ] select user query
+- [ ] validating user query front end
+- [ ] setting values with sessions
+- [ ] validating user admin
+- [ ] logout page improved validation
+- [ ] login improve
