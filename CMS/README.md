@@ -88,6 +88,6 @@
 - [x] select user query
 - [x] validating user query front end
 - [x] setting values with sessions
-- [ ] validating user admin
+- [x] validating user admin
 - [ ] logout page improved validation
 - [ ] login improve
