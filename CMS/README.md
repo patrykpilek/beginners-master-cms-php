@@ -91,3 +91,9 @@
 - [x] validating user admin
 - [x] logout page improved validation
 - [x] login improve
+
+### Profile
+
+- [x] creating the profile page
+- [x] displaying user data
+- [x] updating user data

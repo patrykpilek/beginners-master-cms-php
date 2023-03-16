@@ -62,7 +62,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#"><i class="fa fa-fw fa-file"></i> Profile</a>
+                <a href="/admin/profile.php"><i class="fa fa-fw fa-file"></i> Profile</a>
             </li>
         </ul>
     </div>
