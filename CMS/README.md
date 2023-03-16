@@ -87,7 +87,7 @@
 - [x] making the login page
 - [x] select user query
 - [x] validating user query front end
-- [ ] setting values with sessions
+- [x] setting values with sessions
 - [ ] validating user admin
 - [ ] logout page improved validation
 - [ ] login improve

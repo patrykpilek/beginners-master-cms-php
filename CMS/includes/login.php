@@ -1,8 +1,8 @@
 <?php
 include "db.php";
+session_start();
 
 if(isset($_POST['login'])){
-    echo "login";
 
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -29,7 +29,12 @@ if(isset($_POST['login'])){
     if($username !== $db_username && $password !== $db_user_password) {
         header("Location: ../index.php");
     } elseif ($username == $db_username && $password == $db_user_password) {
-        echo " admin";
+
+        $_SESSION['username'] = $db_username;
+        $_SESSION['firstname'] = $db_user_firstname;
+        $_SESSION['lastname'] = $db_user_lastname;
+        $_SESSION['user_role'] = $db_user_role;
+
         header("Location: ../admin/index.php");
     } else {
         header("Location: ../index.php");
