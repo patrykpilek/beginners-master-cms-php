@@ -102,7 +102,7 @@
 
 - [x] adding widgets
 - [x] posts dynamic data in widget
-- [ ] using dynamic data in all widget
+- [x] using dynamic data in all widget
 - [ ] adjusting widget links 
 - [ ] adding an awesome char to admin
 - [ ] cleaning up the chart a little
