@@ -106,4 +106,4 @@
 - [x] adding an awesome char to admin
 - [x] cleaning up the chart a little
 - [x] displaying dynamic data in chart part 1
-- [ ] displaying dynamic data in chart part 2
+- [x] displaying dynamic data in chart part 2
