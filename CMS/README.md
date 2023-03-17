@@ -111,4 +111,4 @@
 ### Improving CMS
 
 - [x] removing read more button
-- [ ] adding notification to add user page
+- [x] adding notification to add user page
