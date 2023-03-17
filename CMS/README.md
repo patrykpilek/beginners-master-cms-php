@@ -105,5 +105,5 @@
 - [x] using dynamic data in all widget
 - [x] adding an awesome char to admin
 - [x] cleaning up the chart a little
-- [ ] displaying dynamic data in chart part 1
+- [x] displaying dynamic data in chart part 1
 - [ ] displaying dynamic data in chart part 2
