@@ -101,7 +101,7 @@
 ### Dashboard
 
 - [x] adding widgets
-- [ ] posts dynamic data in widget
+- [x] posts dynamic data in widget
 - [ ] using dynamic data in all widget
 - [ ] adjusting widget links 
 - [ ] adding an awesome char to admin
