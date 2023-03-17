@@ -104,6 +104,6 @@
 - [x] posts dynamic data in widget
 - [x] using dynamic data in all widget
 - [x] adding an awesome char to admin
-- [ ] cleaning up the chart a little
+- [x] cleaning up the chart a little
 - [ ] displaying dynamic data in chart part 1
 - [ ] displaying dynamic data in chart part 2
