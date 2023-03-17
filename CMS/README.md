@@ -107,3 +107,8 @@
 - [x] cleaning up the chart a little
 - [x] displaying dynamic data in chart part 1
 - [x] displaying dynamic data in chart part 2
+
+### Improving CMS
+
+- [x] removing read more button
+- [x] adding notification to add user page
