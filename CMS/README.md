@@ -97,3 +97,13 @@
 - [x] creating the profile page
 - [x] displaying user data
 - [x] updating user data
+
+### Dashboard
+
+- [x] adding widgets
+- [x] posts dynamic data in widget
+- [x] using dynamic data in all widget
+- [x] adding an awesome char to admin
+- [x] cleaning up the chart a little
+- [x] displaying dynamic data in chart part 1
+- [x] displaying dynamic data in chart part 2
