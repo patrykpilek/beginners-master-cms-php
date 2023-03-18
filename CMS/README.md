@@ -118,7 +118,7 @@
 - [x] adding dynamic category selection for edit post page
 - [x] adding extra element to dashboard
 - [x] adding the WYSIWYG editor
-- [ ] adding links to post images and read more button 
+- [x] adding links to post images and read more button 
 - [ ] adding post update notification
 - [ ] adding post edit link in front end
 - [ ] adding bulk option posts, part 1
