@@ -152,7 +152,7 @@
                         let data = google.visualization.arrayToDataTable([
                             ['Data', 'Count'],
                             <?php
-                            $query = "SELECT * FROM posts WHERE post_status = 'published' ";
+                            $query = "SELECT * FROM posts WHERE post_status = 'published'";
                             $select_all_published_posts = mysqli_query($connection,$query);
                             $post_published_count = mysqli_num_rows($select_all_published_posts);
 
@@ -160,7 +160,7 @@
                             $select_all_draft_posts = mysqli_query($connection,$query);
                             $post_draft_count = mysqli_num_rows($select_all_draft_posts);
 
-                            $query = "SELECT * FROM comments WHERE comment_status = 'unapproved' ";
+                            $query = "SELECT * FROM comments WHERE comment_status = 'unapproved'";
                             $unapproved_comments_query = mysqli_query($connection,$query);
                             $unapproved_comment_count = mysqli_num_rows($unapproved_comments_query);
 

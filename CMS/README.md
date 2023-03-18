@@ -116,7 +116,7 @@
 ### Extra Features
 
 - [x] adding dynamic category selection for edit post page
-- [ ] adding extra element to dashboard
+- [x] adding extra element to dashboard
 - [ ] adding the WYSIWYG editor
 - [ ] adding links to post images and read more button 
 - [ ] adding post update notification
