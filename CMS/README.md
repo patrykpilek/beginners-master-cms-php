@@ -119,7 +119,7 @@
 - [x] adding extra element to dashboard
 - [x] adding the WYSIWYG editor
 - [x] adding links to post images and read more button 
-- [ ] adding post update notification
+- [x] adding post update notification
 - [ ] adding post edit link in front end
 - [ ] adding bulk option posts, part 1
 - [ ] adding bulk option posts, part 2
