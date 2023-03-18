@@ -120,7 +120,7 @@
 - [x] adding the WYSIWYG editor
 - [x] adding links to post images and read more button 
 - [x] adding post update notification
-- [ ] adding post edit link in front end
+- [x] adding post edit link in front end
 - [ ] adding bulk option posts, part 1
 - [ ] adding bulk option posts, part 2
 - [ ] adding bulk option posts, part 3
