@@ -121,7 +121,7 @@
 - [x] adding links to post images and read more button 
 - [x] adding post update notification
 - [x] adding post edit link in front end
-- [ ] adding bulk option posts, part 1
+- [x] adding bulk option posts, part 1
 - [ ] adding bulk option posts, part 2
 - [ ] adding bulk option posts, part 3
 - [ ] adding bulk option posts, part 4
