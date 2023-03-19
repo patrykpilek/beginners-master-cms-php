@@ -123,7 +123,7 @@
 - [x] adding post edit link in front end
 - [x] adding bulk option posts, part 1
 - [x] adding bulk option posts, part 2
-- [ ] adding bulk option posts, part 3
+- [x] adding bulk option posts, part 3
 - [ ] adding bulk option posts, part 4
 - [ ] adding bulk option posts, part 5
 - [ ] adding bulk option posts, part 6
