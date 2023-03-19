@@ -127,8 +127,7 @@
 - [x] adding bulk option posts, part 4
 - [x] adding bulk option posts, part 5
 - [x] adding bulk option posts, part 6
-- [ ] adding dropdown option for add post page
-- [ ] adding post creation notice to add page
+- [x] adding post creation notice to add page
 - [ ] adding link to add new button in post page
 - [ ] adding link to view posts from admin
 - [ ] adding dynamic personalization to admin

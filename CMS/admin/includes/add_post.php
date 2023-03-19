@@ -14,12 +14,15 @@ if(isset($_POST['create_post'])) {
 
     move_uploaded_file($post_image_temp, "../admin/images/$post_image" );
 
-    $query = "INSERT INTO posts(post_category_id, post_title, post_author, post_date, post_image ,post_content, post_tags, post_comment_count, post_status) ";
-    $query .= "VALUES('{$post_category_id}', '{$post_title}', '{$post_author}', now(), '{$post_image}', '{$post_content}', '{$post_tags}', '{$post_status}') ";
+    $query = "INSERT INTO posts(post_category_id, post_title, post_user, post_date, post_image, post_content ,post_tags, post_status) ";
+    $query .= "VALUES({$post_category_id}, '{$post_title}', '{$post_author}', now(), '{$post_image}','{$post_content}','{$post_tags}', '{$post_status}') ";
 
     $create_post_query = mysqli_query($connection, $query);
 
     confirmQuery($create_post_query);
+
+    $the_post_id = mysqli_insert_id($connection);
+    echo "<p class='bg-success'>Post Created. <a href='../post.php?p_id={$the_post_id}'>View Post </a> or <a href='posts.php'>Edit More Posts</a></p>";
 }
 ?>
 <form action="" method="post" enctype="multipart/form-data">
