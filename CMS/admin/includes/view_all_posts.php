@@ -3,23 +3,30 @@ if(isset($_POST['checkBoxArray'])) {
     foreach($_POST['checkBoxArray'] as $postValueId ){
         $bulk_options = $_POST['bulk_options'];
 
+        switch($bulk_options) {
+            case 'published':
+                $query = "UPDATE posts SET post_status = '{$bulk_options}' WHERE post_id = {$postValueId}";
+                $update_to_published_status = mysqli_query($connection,$query);
+                confirmQuery($update_to_published_status);
+                break;
+
+        }
     }
 }
 ?>
 <form action="" method='post'>
+    <div id="bulkOptionContainer" class="col-xs-4">
+        <select class="form-control" name="bulk_options" id="">
+            <option value="">Select Options</option>
+            <option value="publish">Publish</option>
+            <option value="draft">Draft</option>
+            <option value="delete">Delete</option>
+    </div>
+    <div class="col-xs-4">
+        <input type="submit" name="submit" class="btn btn-success p" value="Apply">
+        <a class="btn btn-primary" href="posts.php?source=add_post">Add New</a>
+    </div>
     <table class="table table-bordered table-hover">
-        <div id="bulkOptionContainer" class="col-xs-4">
-            <select class="form-control" name="bulk_options" id="">
-                <option value="">Select Options</option>
-                <option value="">Publish</option>
-                <option value="">Draft</option>
-        </div>
-
-        <div class="col-xs-4">
-            <input type="submit" name="submit" class="btn btn-success" value="Apply">
-            <a class="btn btn-primary" href="posts.php?source=add_post">Add New</a>
-        </div>
-
         <thead>
         <tr>
             <th><input id="selectAllBoxes" type="checkbox"></th>
