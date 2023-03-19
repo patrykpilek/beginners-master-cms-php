@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <?php include "includes/db.php"; ?>
 <?php include "includes/header.php"; ?>
 
@@ -72,6 +73,8 @@
                     if (!$update_comment_count) {
                         die('QUERY FAILED' . mysqli_error($connection));
                     }
+                } else {
+                    echo "<script>alert('Fields cannot be empty');</script>";
                 }
             }
             ?>

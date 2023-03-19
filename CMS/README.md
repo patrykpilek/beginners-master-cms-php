@@ -112,3 +112,22 @@
 
 - [x] removing read more button
 - [x] adding notification to add user page
+
+### Extra Features
+
+- [x] adding dynamic category selection for edit post page
+- [x] adding extra element to dashboard
+- [x] adding the WYSIWYG editor
+- [x] adding links to post images and read more button 
+- [x] adding post update notification
+- [x] adding post edit link in front end
+- [x] adding bulk option posts, part 1
+- [x] adding bulk option posts, part 2
+- [x] adding bulk option posts, part 3
+- [x] adding bulk option posts, part 4
+- [x] adding bulk option posts, part 5
+- [x] adding bulk option posts, part 6
+- [x] adding post creation notice to add page
+- [x] adding link to view posts from admin
+- [x] adding dynamic personalization to admin
+- [x] adding validation to comments in post page
