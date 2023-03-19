@@ -73,6 +73,8 @@
                     if (!$update_comment_count) {
                         die('QUERY FAILED' . mysqli_error($connection));
                     }
+                } else {
+                    echo "<script>alert('Fields cannot be empty');</script>";
                 }
             }
             ?>

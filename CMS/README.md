@@ -130,4 +130,4 @@
 - [x] adding post creation notice to add page
 - [x] adding link to view posts from admin
 - [x] adding dynamic personalization to admin
-- [ ] adding validation to comments in post page
+- [x] adding validation to comments in post page
