@@ -125,7 +125,7 @@
 - [x] adding bulk option posts, part 2
 - [x] adding bulk option posts, part 3
 - [x] adding bulk option posts, part 4
-- [ ] adding bulk option posts, part 5
+- [x] adding bulk option posts, part 5
 - [ ] adding bulk option posts, part 6
 - [ ] adding dropdown option for add post page
 - [ ] adding post creation notice to add page
