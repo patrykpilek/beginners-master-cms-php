@@ -129,5 +129,5 @@
 - [x] adding bulk option posts, part 6
 - [x] adding post creation notice to add page
 - [x] adding link to view posts from admin
-- [ ] adding dynamic personalization to admin
+- [x] adding dynamic personalization to admin
 - [ ] adding validation to comments in post page
