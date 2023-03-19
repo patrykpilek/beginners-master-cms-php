@@ -122,7 +122,7 @@
 - [x] adding post update notification
 - [x] adding post edit link in front end
 - [x] adding bulk option posts, part 1
-- [ ] adding bulk option posts, part 2
+- [x] adding bulk option posts, part 2
 - [ ] adding bulk option posts, part 3
 - [ ] adding bulk option posts, part 4
 - [ ] adding bulk option posts, part 5
