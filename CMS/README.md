@@ -139,7 +139,7 @@
 - [x] extracting form values and escaping
 - [x] starting query and default tables values
 - [x] fetching our database for default values
-- [ ] register users
+- [x] register users
 - [ ] validating fields
 - [ ] encrypting user password
 - [ ] updating cms due to password encryption
