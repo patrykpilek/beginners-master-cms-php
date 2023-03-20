@@ -1,9 +1,12 @@
-<?php include "includes/db.php"; ?>
-<?php include "includes/header.php"; ?>
+<?php
+include "includes/db.php";
+include "includes/header.php";
+include "includes/navigation.php";
 
-<!-- Navigation -->
-
-<?php include "includes/navigation.php"; ?>
+if(isset($_POST['submit'])) {
+    echo "Okay";
+}
+?>
 
 <!-- Page Content -->
 <div class="container">

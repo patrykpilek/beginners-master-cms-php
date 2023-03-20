@@ -135,7 +135,7 @@
 ### User Registration
 
 - [x] register form
-- [ ] testing registration form
+- [x] testing registration form
 - [ ] extracting form values and escaping
 - [ ] starting query and default tables values
 - [ ] fetching our database for default values
