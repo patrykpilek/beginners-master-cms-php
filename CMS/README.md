@@ -136,7 +136,7 @@
 
 - [x] register form
 - [x] testing registration form
-- [ ] extracting form values and escaping
+- [x] extracting form values and escaping
 - [ ] starting query and default tables values
 - [ ] fetching our database for default values
 - [ ] register users
