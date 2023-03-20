@@ -140,7 +140,7 @@
 - [x] starting query and default tables values
 - [x] fetching our database for default values
 - [x] register users
-- [ ] validating fields
+- [x] validating fields
 - [ ] encrypting user password
 - [ ] updating cms due to password encryption
 - [ ] user page display shorter password field
