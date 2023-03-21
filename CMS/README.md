@@ -141,7 +141,7 @@
 - [x] fetching our database for default values
 - [x] register users
 - [x] validating fields
-- [ ] encrypting user password
+- [x] encrypting user password
 - [ ] updating cms due to password encryption
 - [ ] user page display shorter password field
 - [ ] user page dropdown default value change
