@@ -142,7 +142,7 @@
 - [x] register users
 - [x] validating fields
 - [x] encrypting user password
-- [ ] updating cms due to password encryption
+- [x] updating cms due to password encryption
 - [ ] user page display shorter password field
 - [ ] user page dropdown default value change
 - [ ] php and javascirpt confirm before action
