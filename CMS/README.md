@@ -131,3 +131,17 @@
 - [x] adding link to view posts from admin
 - [x] adding dynamic personalization to admin
 - [x] adding validation to comments in post page
+
+### User Registration
+
+- [x] register form
+- [x] testing registration form
+- [x] extracting form values and escaping
+- [x] starting query and default tables values
+- [x] fetching our database for default values
+- [x] register users
+- [x] validating fields
+- [x] encrypting user password
+- [x] updating cms due to password encryption
+- [x] user page display shorter password field
+- [x] php and javascirpt confirm before action
