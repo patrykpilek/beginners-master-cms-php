@@ -146,12 +146,12 @@
 - [x] user page display shorter password field
 - [x] php and javascirpt confirm before action
 
-### User Registration
+### Author Related
 
 - [x] relating posts to their authors part 1
 - [x] relating posts to their authors part 2
 - [x] cloning posts 
 - [x] adding a loader to the cms admin
 - [x] adding views functionality to posts
-- [ ] resetting views feature
+- [x] resetting views feature
 - [ ] form resubmission fix for all pages
