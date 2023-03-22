@@ -150,7 +150,7 @@
 
 - [x] relating posts to their authors part 1
 - [x] relating posts to their authors part 2
-- [ ] cloning posts 
+- [x] cloning posts 
 - [ ] adding a loader to the cms admin
 - [ ] adding views functionality to posts
 - [ ] resetting views feature
