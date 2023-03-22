@@ -152,6 +152,6 @@
 - [x] relating posts to their authors part 2
 - [x] cloning posts 
 - [x] adding a loader to the cms admin
-- [ ] adding views functionality to posts
+- [x] adding views functionality to posts
 - [ ] resetting views feature
 - [ ] form resubmission fix for all pages
