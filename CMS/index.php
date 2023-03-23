@@ -13,6 +13,11 @@
         <div class="col-md-8">
             <?php
 
+            $post_query_count = "SELECT * FROM posts";
+            $find_count = mysqli_query($connection, $post_query_count);
+            $count = mysqli_num_rows($find_count);
+
+
             $post_query_status = "SELECT * FROM posts WHERE post_status = 'published'";
             $all_published_post = mysqli_query($connection, $post_query_status);
 
