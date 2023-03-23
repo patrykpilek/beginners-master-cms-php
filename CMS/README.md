@@ -154,4 +154,4 @@
 - [x] adding a loader to the cms admin
 - [x] adding views functionality to posts
 - [x] resetting views feature
-- [ ] form resubmission fix for all pages
+- [x] form resubmission fix for all pages

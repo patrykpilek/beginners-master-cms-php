@@ -81,6 +81,8 @@
                     if (!$update_comment_count) {
                         die('QUERY FAILED' . mysqli_error($connection));
                     }
+
+                    redirect("post.php?p_id=$the_post_id");
                 } else {
                     echo "<script>alert('Fields cannot be empty');</script>";
                 }
