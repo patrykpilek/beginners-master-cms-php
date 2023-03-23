@@ -162,4 +162,4 @@
 - [x] pagination part 2 - links and get request
 - [x] pagination part 3 - get request processing
 - [x] pagination part 4 - assigning a variable to the per page value
-- [ ] pagination part 5 - adding some style to current page
+- [x] pagination part 5 - adding some style to current page
