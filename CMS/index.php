@@ -17,6 +17,8 @@
             $find_count = mysqli_query($connection, $post_query_count);
             $count = mysqli_num_rows($find_count);
 
+            $count  = ceil($count / 5);
+
 
             $post_query_status = "SELECT * FROM posts WHERE post_status = 'published'";
             $all_published_post = mysqli_query($connection, $post_query_status);
@@ -37,6 +39,7 @@
 
                     ?>
                     <!-- First Blog Post -->
+                    <h1><?php echo $count; ?></h1>
                     <h2>
                         <a href="post.php?p_id=<?php echo $post_id ?>"><?php echo $post_title ?></a>
                     </h2>
@@ -63,6 +66,17 @@
     </div>
     <!-- /.row -->
     <hr>
+
+    <ul class="pager">
+        <?php
+        $number_list = array();
+
+        for($i = 1; $i <= $count; $i++) {
+            echo "<li><a href='index.php?page={$i}'>{$i}</a></li>";
+        }
+        ?>
+    </ul>
+
     <!-- Footer -->
     <?php include "includes/footer.php"; ?>
 <!-- /.container -->

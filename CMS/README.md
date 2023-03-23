@@ -159,7 +159,7 @@
 ### Pagination
 
 - [x] pagination part 1
-- [ ] pagination part 2 - links and get request
+- [x] pagination part 2 - links and get request
 - [ ] pagination part 3 - get request processing
 - [ ] pagination part 4 - assigning a variable to the per page value
 - [ ] pagination part 5 - adding some style to current page
