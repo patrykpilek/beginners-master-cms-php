@@ -13,6 +13,8 @@
         <div class="col-md-8">
             <?php
 
+            $per_page = 4;
+
             if(isset($_GET['page'])) {
                 $page = $_GET['page'];
             } else {
@@ -22,17 +24,17 @@
             if($page == "" || $page == 1) {
                 $page_1 = 0;
             } else {
-                $page_1 = ($page * 5) - 5;
+                $page_1 = ($page * $per_page) - $per_page;
             }
 
             $post_query_count = "SELECT * FROM posts";
             $find_count = mysqli_query($connection, $post_query_count);
             $count = mysqli_num_rows($find_count);
 
-            $count  = ceil($count / 5);
+            $count  = ceil($count / $per_page);
 
 
-            $post_query_status = "SELECT * FROM posts WHERE post_status = 'published'";
+            $post_query_status = "SELECT * FROM posts WHERE post_status = 'published' LIMIT $page_1, $per_page";
             $all_published_post = mysqli_query($connection, $post_query_status);
 
             if(mysqli_num_rows($all_published_post) == 0) {
