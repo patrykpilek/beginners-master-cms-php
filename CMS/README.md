@@ -155,3 +155,11 @@
 - [x] adding views functionality to posts
 - [x] resetting views feature
 - [x] form resubmission fix for all pages
+
+### Pagination
+
+- [x] pagination part 1
+- [x] pagination part 2 - links and get request
+- [x] pagination part 3 - get request processing
+- [x] pagination part 4 - assigning a variable to the per page value
+- [x] pagination part 5 - adding some style to current page
