@@ -145,3 +145,13 @@
 - [x] updating cms due to password encryption
 - [x] user page display shorter password field
 - [x] php and javascirpt confirm before action
+
+### Author Related
+
+- [x] relating posts to their authors part 1
+- [x] relating posts to their authors part 2
+- [x] cloning posts 
+- [x] adding a loader to the cms admin
+- [x] adding views functionality to posts
+- [x] resetting views feature
+- [x] form resubmission fix for all pages
