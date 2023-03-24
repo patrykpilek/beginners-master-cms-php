@@ -167,7 +167,7 @@
 ### Users Online
 
 - [x] creating the user online table and setup
-- [ ] creating the php code and queries
+- [x] creating the php code and queries
 - [ ] displaying users online 
 - [ ] displaying uses online in navigation
 - [ ] instant users online count without refreshing part 1
