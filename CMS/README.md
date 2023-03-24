@@ -170,5 +170,5 @@
 - [x] creating the php code and queries
 - [x] displaying users online
 - [x] displaying uses online in navigation
-- [ ] instant users online count without refreshing part 1
+- [x] instant users online count without refreshing part 1
 - [ ] instant users online count without refreshing part 2
