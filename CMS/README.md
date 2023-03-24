@@ -163,3 +163,12 @@
 - [x] pagination part 3 - get request processing
 - [x] pagination part 4 - assigning a variable to the per page value
 - [x] pagination part 5 - adding some style to current page
+
+### Users Online
+
+- [x] creating the user online table and setup
+- [x] creating the php code and queries
+- [x] displaying users online
+- [x] displaying uses online in navigation
+- [x] instant users online count without refreshing part 1
+- [x] instant users online count without refreshing part 2
