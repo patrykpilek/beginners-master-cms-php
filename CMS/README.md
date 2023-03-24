@@ -169,6 +169,6 @@
 - [x] creating the user online table and setup
 - [x] creating the php code and queries
 - [x] displaying users online
-- [ ] displaying uses online in navigation
+- [x] displaying uses online in navigation
 - [ ] instant users online count without refreshing part 1
 - [ ] instant users online count without refreshing part 2
