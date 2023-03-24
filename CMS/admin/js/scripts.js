@@ -30,8 +30,9 @@ function loadUsersOnline() {
     });
 }
 
-
-loadUsersOnline();
+setInterval(function(){
+    loadUsersOnline();
+},500);
 
 
 

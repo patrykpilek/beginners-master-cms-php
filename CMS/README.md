@@ -171,4 +171,4 @@
 - [x] displaying users online
 - [x] displaying uses online in navigation
 - [x] instant users online count without refreshing part 1
-- [ ] instant users online count without refreshing part 2
+- [x] instant users online count without refreshing part 2
