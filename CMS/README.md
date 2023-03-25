@@ -180,4 +180,4 @@
 - [x] adding new system to add users in admin
 - [x] adding new password system to edit user page part 1
 - [x] adding new password system to edit user page part 2
-- [ ] cleaning up edit usr page
+- [x] cleaning up edit usr page
