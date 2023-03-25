@@ -172,3 +172,12 @@
 - [x] displaying uses online in navigation
 - [x] instant users online count without refreshing part 1
 - [x] instant users online count without refreshing part 2
+
+### Simple Password Encrypting and Login System
+
+- [x] explanation of new function and implementation 
+- [ ] login in users with new system
+- [ ] adding new system to add users in admin
+- [ ] adding new password system to edit user page part 1
+- [ ] adding new password system to edit user page part 2
+- [ ] cleaning up edit usr page
