@@ -194,5 +194,5 @@
 - [x] add page
 - [x] insertion
 - [x] fixing user display issue
-- [ ] edit post page update
+- [x] edit post page update
 - [ ] upgrading front end
