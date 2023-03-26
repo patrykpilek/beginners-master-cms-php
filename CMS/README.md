@@ -181,3 +181,10 @@
 - [x] adding new password system to edit user page part 1
 - [x] adding new password system to edit user page part 2
 - [x] cleaning up edit usr page
+
+### Improved Comment System Count and Display
+
+- [x] comment count and amount display 
+- [x] creating a link in comment count and sending a GET request
+- [x] comments page to specific posts
+- [x] deleting in the same page
