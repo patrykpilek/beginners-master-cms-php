@@ -186,5 +186,5 @@
 
 - [x] comment count and amount display 
 - [x] creating a link in comment count and sending a GET request
-- [ ] comments page to specific posts
+- [x] comments page to specific posts
 - [ ] deleting in the same page
