@@ -95,6 +95,7 @@ if(isset($_POST['checkBoxArray'])) {
         while ($row = mysqli_fetch_assoc($select_posts)) {
             $post_id = $row['post_id'];
             $post_author = $row['post_author'];
+            $post_user = $row['post_user'];
             $post_title = $row['post_title'];
             $post_category_id = $row['post_category_id'];
             $post_status = $row['post_status'];
