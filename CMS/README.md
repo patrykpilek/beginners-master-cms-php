@@ -188,3 +188,11 @@
 - [x] creating a link in comment count and sending a GET request
 - [x] comments page to specific posts
 - [x] deleting in the same page
+
+### Post For Specific User in Admin
+
+- [x] add page
+- [x] insertion
+- [x] fixing user display issue
+- [x] edit post page update
+- [x] upgrading front end
