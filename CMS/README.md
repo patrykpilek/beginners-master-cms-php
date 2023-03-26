@@ -192,7 +192,7 @@
 ### Post For Specific User in Admin
 
 - [x] add page
-- [ ] insertion
+- [x] insertion
 - [ ] fixing user display issue
 - [ ] edit post page update
 - [ ] upgrading front end
