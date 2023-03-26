@@ -193,6 +193,6 @@
 
 - [x] add page
 - [x] insertion
-- [ ] fixing user display issue
+- [x] fixing user display issue
 - [ ] edit post page update
 - [ ] upgrading front end

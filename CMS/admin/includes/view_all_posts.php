@@ -72,7 +72,7 @@ if(isset($_POST['checkBoxArray'])) {
         <tr>
             <th><input id="selectAllBoxes" type="checkbox"> All</th>
             <th>Id</th>
-            <th>Author</th>
+            <th>Users</th>
             <th>Title</th>
             <th>Category</th>
             <th>Status</th>
