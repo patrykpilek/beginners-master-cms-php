@@ -196,3 +196,7 @@
 - [x] fixing user display issue
 - [x] edit post page update
 - [x] upgrading front end
+
+### More Security
+
+- [x] url and mysql injection protection
