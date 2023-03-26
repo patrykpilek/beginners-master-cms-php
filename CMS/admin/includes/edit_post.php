@@ -21,7 +21,7 @@ while($row = mysqli_fetch_assoc($select_posts_by_id)) {
 }
 
 if(isset($_POST['update_post'])) {
-    $post_user         =  $_POST['post_user'];
+    $post_user           =  $_POST['post_user'];
     $post_title          =  $_POST['post_title'];
     $post_category_id    =  $_POST['post_category'];
     $post_status         =  $_POST['post_status'];
@@ -96,6 +96,9 @@ if(isset($_POST['update_post'])) {
         <label for="users">Users</label>
         <select name="post_user" id="users">
             <?php
+
+            echo "<option value='{$post_user}'>{$post_user}</option>";
+
             $users_query = "SELECT * FROM users";
             $select_users = mysqli_query($connection,$users_query);
 

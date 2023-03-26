@@ -195,4 +195,4 @@
 - [x] insertion
 - [x] fixing user display issue
 - [x] edit post page update
-- [ ] upgrading front end
+- [x] upgrading front end
