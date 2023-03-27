@@ -204,6 +204,6 @@
 ### Sending Emails
 
 - [x] creating a contact page
-- [ ] uploading contact page
+- [x] uploading contact page
 - [ ] sending emails
 - [ ] modifying email headers

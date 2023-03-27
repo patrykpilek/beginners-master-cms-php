@@ -3,7 +3,11 @@ include "includes/db.php";
 include "includes/header.php";
 include "includes/navigation.php";
 
-
+if(isset($_POST['submit'])) {
+    $to         = "patryk.pilek@gmail.com";
+    $subject    = $_POST['subject'];
+    $body       = $_POST['body'];
+}
 
 ?>
 
