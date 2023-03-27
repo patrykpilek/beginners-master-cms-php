@@ -200,3 +200,10 @@
 ### More Security
 
 - [x] url and mysql injection protection
+
+### Sending Emails
+
+- [x] creating a contact page
+- [ ] uploading contact page
+- [ ] sending emails
+- [ ] modifying email headers
