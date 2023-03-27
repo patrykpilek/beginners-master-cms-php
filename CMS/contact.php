@@ -7,6 +7,12 @@ if(isset($_POST['submit'])) {
     $to         = "patryk.pilek@gmail.com";
     $subject    = $_POST['subject'];
     $body       = $_POST['body'];
+
+    if (mail($to, $subject, $body)) {
+        echo ("Message successfully sent!");
+    } else {
+        echo ("Message delivery failed...");
+    }
 }
 
 ?>

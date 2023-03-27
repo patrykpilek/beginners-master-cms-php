@@ -205,5 +205,5 @@
 
 - [x] creating a contact page
 - [x] uploading contact page
-- [ ] sending emails
+- [x] sending emails
 - [ ] modifying email headers
