@@ -7,8 +7,9 @@ if(isset($_POST['submit'])) {
     $to         = "patryk.pilek@gmail.com";
     $subject    = $_POST['subject'];
     $body       = $_POST['body'];
+    $headers    = "From: " . $_POST['email'];
 
-    if (mail($to, $subject, $body)) {
+    if (mail($to, $subject, $body, $headers)) {
         echo ("Message successfully sent!");
     } else {
         echo ("Message delivery failed...");
