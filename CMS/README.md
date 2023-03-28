@@ -211,4 +211,4 @@
 ### Bootstrap Modal Delete Confirm
 
 - [x] creating the markup
-- [ ] writing the code
+- [x] writing the code
