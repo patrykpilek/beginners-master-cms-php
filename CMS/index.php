@@ -27,21 +27,17 @@
                 $page_1 = ($page * $per_page) - $per_page;
             }
 
-            $post_query_count = "SELECT * FROM posts";
+            $post_query_count = "SELECT * FROM posts WHERE post_status = 'published'";
             $find_count = mysqli_query($connection, $post_query_count);
             $count = mysqli_num_rows($find_count);
 
-            $count  = ceil($count / $per_page);
-
-
-            $post_query_status = "SELECT * FROM posts WHERE post_status = 'published' LIMIT $page_1, $per_page";
-            $all_published_post = mysqli_query($connection, $post_query_status);
-
-            if(mysqli_num_rows($all_published_post) == 0) {
-                echo '<h2>Sorry no posts to show</h2>';
+            if($count < 1) {
+                echo "<h1 class='text-center'>No posts available</h1>";
             } else {
-//                $query = "SELECT * FROM posts";
-//                $select_all_posts_query = mysqli_query($connection, $query);
+                $count  = ceil($count / $per_page);
+
+                $post_query_status = "SELECT * FROM posts WHERE post_status = 'published' LIMIT $page_1, $per_page";
+                $all_published_post = mysqli_query($connection, $post_query_status);
 
                 while($row = mysqli_fetch_assoc($all_published_post)) {
                     $post_id = $row['post_id'];
@@ -53,7 +49,6 @@
 
                     ?>
                     <!-- First Blog Post -->
-                    <h1><?php echo $count; ?></h1>
                     <h2>
                         <a href="post.php?p_id=<?php echo $post_id ?>"><?php echo $post_title ?></a>
                     </h2>
@@ -69,7 +64,7 @@
                     <p><?php echo $post_content ?></p>
                     <a class="btn btn-primary" href="post.php?p_id=<?php echo $post_id; ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                     <hr>
-                    <?php }
+                <?php }
             }
             ?>
 
