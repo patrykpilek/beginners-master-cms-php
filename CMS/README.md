@@ -217,5 +217,5 @@
 
 - [x] no posts feature home page
 - [x] no categories feature
-- [ ] don't show draft to visitors but everything to admin
+- [x] don't show draft to visitors but everything to admin
 - [ ] applying functionality to mayor pages
