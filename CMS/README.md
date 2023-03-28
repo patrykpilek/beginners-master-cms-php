@@ -212,3 +212,10 @@
 
 - [x] creating the markup
 - [x] writing the code
+
+### No Post Or Category Message feature
+
+- [x] no posts feature home page
+- [x] no categories feature
+- [x] don't show draft to visitors but everything to admin
+- [x] applying functionality to mayor pages
