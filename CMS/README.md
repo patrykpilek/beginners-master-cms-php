@@ -207,3 +207,8 @@
 - [x] uploading contact page
 - [x] sending emails
 - [x] modifying email headers
+
+### Bootstrap Modal Delete Confirm
+
+- [x] creating the markup
+- [ ] writing the code
