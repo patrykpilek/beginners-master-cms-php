@@ -216,6 +216,6 @@
 ### No Post Or Category Message feature
 
 - [x] no posts feature home page
-- [ ] no categories feature
+- [x] no categories feature
 - [ ] don't show draft to visitors but everything to admin
 - [ ] applying functionality to mayor pages
