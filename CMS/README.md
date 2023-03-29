@@ -228,4 +228,4 @@
 ### Bugs
 
 - [x] fixing bug in our edit post javascript editor
-- [ ] cloning empty fields and table shifting fix
+- [x] cloning empty fields and table shifting fix
