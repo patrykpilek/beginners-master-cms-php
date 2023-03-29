@@ -223,4 +223,4 @@
 ### Some Miscellaneous Features
 
 - [x] active navigation links
-- [ ] login form visibility when logged in or logged out
+- [x] login form visibility when logged in or logged out
