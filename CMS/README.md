@@ -219,3 +219,8 @@
 - [x] no categories feature
 - [x] don't show draft to visitors but everything to admin
 - [x] applying functionality to mayor pages
+
+### Some Miscellaneous Features
+
+- [x] active navigation links
+- [ ] login form visibility when logged in or logged out
