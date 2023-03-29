@@ -224,3 +224,8 @@
 
 - [x] active navigation links
 - [x] login form visibility when logged in or logged out
+
+### Bugs
+
+- [x] fixing bug in our edit post javascript editor
+- [ ] cloning empty fields and table shifting fix
