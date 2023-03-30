@@ -229,3 +229,10 @@
 
 - [x] fixing bug in our edit post javascript editor
 - [x] cloning empty fields and table shifting fix
+
+### Refactoring
+
+- [x] refactoring index in admin part 1
+- [ ] refactoring index in admin part 2
+- [ ] refactoring our view all posts by JOINING TABLES part 1
+- [ ] refactoring our view all posts by JOINING TABLES part 2
