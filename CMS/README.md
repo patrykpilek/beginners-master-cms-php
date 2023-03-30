@@ -241,7 +241,7 @@
 
 - [x] create a better admin detection feature
 - [x] duplicate username function
-- [ ] duplicate email function
+- [x] duplicate email function
 - [ ] validation for registration
 - [ ] setting up our login user function
 - [ ] adding some user friendly code
