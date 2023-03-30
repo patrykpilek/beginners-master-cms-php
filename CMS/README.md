@@ -235,4 +235,4 @@
 - [x] refactoring index in admin part 1
 - [x] refactoring index in admin part 2
 - [x] refactoring our view all posts by JOINING TABLES part 1
-- [ ] refactoring our view all posts by JOINING TABLES part 2
+- [x] refactoring our view all posts by JOINING TABLES part 2
