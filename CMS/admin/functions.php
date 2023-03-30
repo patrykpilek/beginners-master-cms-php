@@ -21,13 +21,14 @@ function insert_categories()
     }
 }
 
-function findAllCategories() {
+function findAllCategories()
+{
     global $connection;
-    
-    $query = "SELECT * FROM categories";
-    $select_categories = mysqli_query($connection,$query);
 
-    while($row = mysqli_fetch_assoc($select_categories)) {
+    $query = "SELECT * FROM categories";
+    $select_categories = mysqli_query($connection, $query);
+
+    while ($row = mysqli_fetch_assoc($select_categories)) {
         $cat_id = $row['cat_id'];
         $cat_title = $row['cat_title'];
 
@@ -40,32 +41,36 @@ function findAllCategories() {
     }
 }
 
-function deleteCategories(){
+function deleteCategories()
+{
     global $connection;
 
-    if(isset($_GET['delete'])){
+    if (isset($_GET['delete'])) {
         $the_cat_id = $_GET['delete'];
         $query = "DELETE FROM categories WHERE cat_id = {$the_cat_id}";
-        $delete_query = mysqli_query($connection,$query);
+        $delete_query = mysqli_query($connection, $query);
         header("Location: categories.php");
     }
 }
 
-function confirmQuery($result) {
+function confirmQuery($result)
+{
     global $connection;
 
-    if(!$result) {
+    if (!$result) {
         die("QUERY FAILED . " . mysqli_error($connection));
     }
 }
 
-function redirect($location){
+function redirect($location)
+{
     header("Location:" . $location);
     exit;
 }
 
-function users_online() {
-    if(isset($_GET['onlineusers'])) {
+function users_online()
+{
+    if (isset($_GET['onlineusers'])) {
         global $connection;
 
         if (!$connection) {
@@ -96,12 +101,14 @@ function users_online() {
 
 users_online();
 
-function escape($string) {
+function escape($string)
+{
     global $connection;
     return mysqli_real_escape_string($connection, trim($string));
 }
 
-function recordCount($table) {
+function recordCount($table)
+{
     global $connection;
 
     $query = "SELECT * FROM " . $table;
@@ -113,19 +120,21 @@ function recordCount($table) {
     return $result;
 }
 
-function checkStatus($table, $column, $status) {
+function checkStatus($table, $column, $status)
+{
     global $connection;
 
     $query = "SELECT * FROM $table WHERE $column = '$status'";
-    $result = mysqli_query($connection,$query);
+    $result = mysqli_query($connection, $query);
     return mysqli_num_rows($result);
 }
 
-function checkUserRole($table, $column, $role) {
+function checkUserRole($table, $column, $role)
+{
     global $connection;
 
     $query = "SELECT * FROM $table WHERE $column = '$role'";
-    $result = mysqli_query($connection,$query);
+    $result = mysqli_query($connection, $query);
     return mysqli_num_rows($result);
 }
 
@@ -140,6 +149,21 @@ function is_admin($username = '')
     $row = mysqli_fetch_array($result);
 
     if ($row['user_role'] == 'admin') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function username_exists($username)
+{
+    global $connection;
+
+    $query = "SELECT username FROM users WHERE username = '$username'";
+    $result = mysqli_query($connection, $query);
+    confirmQuery($result);
+
+    if (mysqli_num_rows($result) > 0) {
         return true;
     } else {
         return false;

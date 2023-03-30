@@ -8,6 +8,10 @@ if(isset($_POST['submit'])) {
     $email    = $_POST['email'];
     $password = $_POST['password'];
 
+    if(username_exists($username)){
+        $message = 'Username already exists.';
+    }
+
     if(!empty($username) && !empty($email) && !empty($password)) {
         $username = mysqli_real_escape_string($connection, $username);
         $email    = mysqli_real_escape_string($connection, $email);

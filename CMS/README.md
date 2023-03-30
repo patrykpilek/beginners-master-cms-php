@@ -240,7 +240,7 @@
 ### New registration system
 
 - [x] create a better admin detection feature
-- [ ] duplicate username function
+- [x] duplicate username function
 - [ ] duplicate email function
 - [ ] validation for registration
 - [ ] setting up our login user function
