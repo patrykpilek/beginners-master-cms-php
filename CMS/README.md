@@ -244,7 +244,7 @@
 - [x] duplicate email function
 - [x] validation for registration
 - [x] setting up our login user function
-- [ ] adding some user friendly code
+- [x] adding some user friendly code
 - [ ] displaying inline errors in form
 - [ ] registering users with the new function
 - [ ] login users with the nre function
