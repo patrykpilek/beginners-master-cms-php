@@ -243,7 +243,7 @@
 - [x] duplicate username function
 - [x] duplicate email function
 - [x] validation for registration
-- [ ] setting up our login user function
+- [x] setting up our login user function
 - [ ] adding some user friendly code
 - [ ] displaying inline errors in form
 - [ ] registering users with the new function

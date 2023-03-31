@@ -34,18 +34,20 @@ if (isset($_POST['submit'])) {
         $error['email'] = 'Email already exists, <a href="index.php">Please login</a>';
     }
 
-    if($password == '') {
+    if ($password == '') {
         $error['password'] = 'Password cannot be empty';
     }
 
-    if (!empty($username) && !empty($email) && !empty($password)) {
-        register_user($username, $email, $password);
-        $message = "Your registration has been submitted";
-    } else {
-        $message = "Fields cannot be empty";
+    foreach ($error as $key => $value) {
+        if (empty($value)) {
+            unset($error[$key]);
+        }
     }
-} else {
-    $message = "";
+
+    if (empty($error)) {
+        register_user($username, $email, $password);
+        login_user($username, $password);
+    }
 }
 ?>
 
@@ -58,7 +60,6 @@ if (isset($_POST['submit'])) {
                     <div class="form-wrap">
                         <h1>Register</h1>
                         <form role="form" action="registration.php" method="post" id="login-form" autocomplete="off">
-                            <h6 class="text-center"><?php echo $message; ?></h6>
                             <div class="form-group">
                                 <label for="username" class="sr-only">username</label>
                                 <input type="text" name="username" id="username" class="form-control" placeholder="Enter Desired Username">
