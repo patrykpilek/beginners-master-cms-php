@@ -3,16 +3,42 @@ include "includes/db.php";
 include "includes/header.php";
 include "includes/navigation.php";
 
-if(isset($_POST['submit'])) {
-    $username = $_POST['username'];
-    $email    = $_POST['email'];
-    $password = $_POST['password'];
+if (isset($_POST['submit'])) {
+    $username = trim($_POST['username']);
+    $email = trim($_POST['email']);
+    $password = trim($_POST['password']);
 
-    if(username_exists($username)){
+    $error = [
+        'username' => '',
+        'email' => '',
+        'password' => ''
+    ];
+
+    if (strlen($username) < 4) {
+        $error['username'] = 'Username needs to be longer';
+    }
+
+    if ($username == '') {
+        $error['username'] = 'Username cannot be empty';
+    }
+
+    if (username_exists($username)) {
         $message = 'Username already exists.';
     }
 
-    if(!empty($username) && !empty($email) && !empty($password)) {
+    if ($email == '') {
+        $error['email'] = 'Email cannot be empty';
+    }
+
+    if (email_exists($email)) {
+        $error['email'] = 'Email already exists, <a href="index.php">Please login</a>';
+    }
+
+    if($password == '') {
+        $error['password'] = 'Password cannot be empty';
+    }
+
+    if (!empty($username) && !empty($email) && !empty($password)) {
         register_user($username, $email, $password);
         $message = "Your registration has been submitted";
     } else {
