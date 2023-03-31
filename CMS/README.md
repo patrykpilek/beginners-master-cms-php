@@ -245,7 +245,7 @@
 - [x] validation for registration
 - [x] setting up our login user function
 - [x] adding some user friendly code
-- [ ] displaying inline errors in form
+- [x] displaying inline errors in form
 - [ ] registering users with the new function
 - [ ] login users with the nre function
 - [ ] deleting via POST
