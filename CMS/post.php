@@ -1,9 +1,10 @@
-<?php session_start() ?>
-<?php include "includes/db.php"; ?>
-<?php include "includes/header.php"; ?>
+<?php
+session_start();
+include "includes/db.php";
+include "includes/header.php";
+include "includes/navigation.php";
 
-<!-- Navigation -->
-<?php include "includes/navigation.php"; ?>
+?>
 
 <!-- Page Content -->
 <div class="container">
@@ -42,13 +43,9 @@
                         $post_content = $row['post_content'];
 
                         ?>
-                        <h1 class="page-header">
-                            Posts
-                        </h1>
+                        <h1 class="page-header">Posts</h1>
                         <!-- First Blog Post -->
-                        <h2>
-                            <a href="#"><?php echo $post_title ?></a>
-                        </h2>
+                        <h2><?php echo $post_title ?></h2>
                         <p class="lead">by <a href="index.php"><?php echo $post_author ?></a></p>
                         <p><span class="glyphicon glyphicon-time"></span> <?php echo $post_date ?></p>
                         <hr>
@@ -77,7 +74,7 @@
                                 die('QUERY FAILED' . mysqli_error($connection));
                             }
 
-                            redirect("post.php?p_id=$the_post_id");
+                            redirect("post.php/$the_post_id");
                         } else {
                             echo "<script>alert('Fields cannot be empty');</script>";
                         }

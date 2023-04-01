@@ -255,4 +255,4 @@
 - [x] turning on the rewrite engine
 - [x] rewriting index, contact and registration
 - [x] rewriting post page and query string
-- [ ] rewriting category page and fixing links
+- [x] rewriting category page and fixing links
