@@ -249,3 +249,10 @@
 - [x] registering users with the new function
 - [x] login users with the new function
 - [x] deleting via POST
+
+### Pretty URL's
+
+- [x] turning on the rewrite engine
+- [ ] rewriting index, contact and registration
+- [ ] rewriting post page and query string
+- [ ] rewriting category page and fixing links
