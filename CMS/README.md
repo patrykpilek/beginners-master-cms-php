@@ -247,5 +247,5 @@
 - [x] adding some user friendly code
 - [x] displaying inline errors in form
 - [x] registering users with the new function
-- [ ] login users with the nre function
+- [x] login users with the new function
 - [ ] deleting via POST
