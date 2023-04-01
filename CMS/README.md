@@ -256,3 +256,11 @@
 - [x] rewriting index, contact and registration
 - [x] rewriting post page and query string
 - [x] rewriting category page and fixing links
+
+### Forgot Password System
+
+- [x] creating some helper functions for the new system
+- [ ] restructuring login page
+- [ ] creating the forgot password page
+- [ ] forgot password -checking form values
+- [ ] updating database with token values
