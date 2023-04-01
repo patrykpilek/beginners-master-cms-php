@@ -3,7 +3,7 @@ include "includes/db.php";
 include "includes/header.php";
 include "includes/navigation.php";
 
-if (isset($_POST['submit'])) {
+if($_SERVER['REQUEST_METHOD'] == "POST") {
     $username = trim($_POST['username']);
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
     }
 
     if (username_exists($username)) {
-        $message = 'Username already exists.';
+        $error['username'] = 'Username already exists, pick another another';
     }
 
     if ($email == '') {
@@ -80,7 +80,7 @@ if (isset($_POST['submit'])) {
                                 <p class="text-danger"><?php echo isset($error['password']) ? $error['password'] : '' ?></p>
                             </div>
 
-                            <input type="submit" name="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Register">
+                            <input type="submit" name="register" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Register">
                         </form>
 
                     </div>
