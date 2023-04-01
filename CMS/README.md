@@ -253,6 +253,6 @@
 ### Pretty URL's
 
 - [x] turning on the rewrite engine
-- [ ] rewriting index, contact and registration
+- [x] rewriting index, contact and registration
 - [ ] rewriting post page and query string
 - [ ] rewriting category page and fixing links
