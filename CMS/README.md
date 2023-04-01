@@ -248,4 +248,4 @@
 - [x] displaying inline errors in form
 - [x] registering users with the new function
 - [x] login users with the new function
-- [ ] deleting via POST
+- [x] deleting via POST
