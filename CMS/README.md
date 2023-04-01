@@ -236,3 +236,16 @@
 - [x] refactoring index in admin part 2
 - [x] refactoring our view all posts by JOINING TABLES part 1
 - [x] refactoring our view all posts by JOINING TABLES part 2
+
+### New registration system
+
+- [x] create a better admin detection feature
+- [x] duplicate username function
+- [x] duplicate email function
+- [x] validation for registration
+- [x] setting up our login user function
+- [x] adding some user friendly code
+- [x] displaying inline errors in form
+- [x] registering users with the new function
+- [x] login users with the new function
+- [x] deleting via POST
