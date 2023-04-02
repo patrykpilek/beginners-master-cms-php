@@ -263,4 +263,4 @@
 - [x] restructuring login page
 - [x] creating the forgot password page
 - [x] forgot password -checking form values
-- [ ] updating database with token values
+- [x] updating database with token values
