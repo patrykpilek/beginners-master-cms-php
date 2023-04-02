@@ -4,11 +4,16 @@
 <?php
 checkIfUserIsLoggedInAndRedirect('/admin');
 
-if(ifItIsMethod('post')) {
-    if(isset($_POST['username']) && $_POST['password'] ) {
-        login_user($_POST['username'], $_POST['password']);
-    } else {
-        redirect('login.php');
+if (ifItIsMethod('post')) {
+    if (isset($_POST['login'])) {
+        echo "test1";
+        if (isset($_POST['username']) && isset($_POST['password'])) {
+            echo "test2";
+            login_user($_POST['username'], $_POST['password']);
+        } else {
+            echo "test3";
+            redirect('/index');
+        }
     }
 }
 
@@ -48,8 +53,7 @@ if(ifItIsMethod('post')) {
                                     </div>
 
                                     <div class="form-group">
-
-                                        <input name="login" class="btn btn-lg btn-primary btn-block" value="Login" type="submit">
+                                        <button class="btn btn-primary" name="login" type="submit">Login</button>
                                     </div>
 
                                 </form>

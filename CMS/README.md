@@ -261,6 +261,6 @@
 
 - [x] creating some helper functions for the new system
 - [x] restructuring login page
-- [ ] creating the forgot password page
+- [x] creating the forgot password page
 - [ ] forgot password -checking form values
 - [ ] updating database with token values
