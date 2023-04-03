@@ -41,7 +41,9 @@ if (ifItIsMethod('post')) {
 
                 $mail->Subject = 'This is a test email';
 
-                $mail->Body = 'Email Body';
+                $mail->Body = '<p>Please click to reset your password
+                    <a href="http://localhost/reset.php?email='.$email.'&token='.$token.' ">http://localhost/reset.php?email='.$email.'&token='.$token.'</a>
+                    </p>';
 
                 if($mail->send()){
                     $emailSent = true;
