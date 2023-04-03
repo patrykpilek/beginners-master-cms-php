@@ -1,5 +1,7 @@
 <?php
 
+use classes\Config;
+
 require './vendor/autoload.php';
 
 include "includes/db.php";
@@ -32,6 +34,7 @@ if (ifItIsMethod('post')) {
                 $mail->SMTPSecure = 'tls';
                 $mail->SMTPAuth = true;
                 $mail->isHTML(true);
+                $mail->CharSet = 'UTF-8';
 
                 $mail->setFrom('test@udemy.com', 'Udemy Test');
                 $mail->addAddress($email);

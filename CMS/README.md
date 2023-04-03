@@ -269,7 +269,7 @@
 
 - [x] installing third part libarary iwth composer
 - [x] sending email
-- [ ] autoloading classes and setting up UTF-8 for emails
+- [x] autoloading classes and setting up UTF-8 for emails
 - [ ] sending code over email
 - [ ] creating the rest page
 - [ ] pulling data and testing it

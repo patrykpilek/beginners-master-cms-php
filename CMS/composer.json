@@ -1,6 +1,9 @@
 {
   "name": "patryk/cms",
   "autoload": {
+    "classmap": [
+      "classes/"
+    ]
   },
   "authors": [
     {
