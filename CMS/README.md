@@ -273,7 +273,7 @@
 - [x] sending code over email
 - [x] creating the rest page
 - [x] pulling data and testing it
-- [ ] unique databse values
+- [x] unique databse values
 - [ ] updating password and token colmns
 - [ ] making it everything work
 - [ ] update search feature to work with forgot password system code

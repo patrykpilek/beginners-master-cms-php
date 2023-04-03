@@ -13,6 +13,9 @@ if ($stmt = mysqli_prepare($connection, 'SELECT username, user_email, token FROM
     mysqli_stmt_fetch($stmt);
     mysqli_stmt_close($stmt);
 
+    if (isset($_POST['password']) && isset($_POST['confirmPassword'])) {
+        echo "They both the same";
+    }
 }
 
 ?>
