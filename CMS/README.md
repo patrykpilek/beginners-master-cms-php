@@ -264,3 +264,19 @@
 - [x] creating the forgot password page
 - [x] forgot password -checking form values
 - [x] updating database with token values
+
+### Forgot Password System - Send Email
+
+- [x] installing third part libarary iwth composer
+- [ ] how to send emails
+- [ ] sending email
+- [ ] autoloading classes and setting up UTF-8 for emails
+- [ ] sending code over email
+- [ ] creating the rest page
+- [ ] pulling data and testing it
+- [ ] unique databse values
+- [ ] updating password and token colmns
+- [ ] making it everything work
+- [ ] update search feature to work with forgot password system code
+- [ ] data base on current user
+- [ ] image fallback and comment display fix
