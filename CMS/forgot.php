@@ -1,4 +1,7 @@
 <?php
+
+require './vendor/autoload.php';
+
 include "includes/db.php";
 include "includes/header.php";
 
@@ -17,6 +20,31 @@ if (ifItIsMethod('post')) {
                 mysqli_stmt_bind_param($stmt, "s", $email);
                 mysqli_stmt_execute($stmt);
                 mysqli_stmt_close($stmt);
+
+
+                $mail = new PHPMailer();
+
+                $mail->isSMTP();
+                $mail->Host = Config::SMTP_HOST;
+                $mail->Username = Config::SMTP_USER;
+                $mail->Password = Config::SMTP_PASSWORD;
+                $mail->Port = Config::SMTP_PORT;
+                $mail->SMTPSecure = 'tls';
+                $mail->SMTPAuth = true;
+                $mail->isHTML(true);
+
+                $mail->setFrom('test@udemy.com', 'Udemy Test');
+                $mail->addAddress($email);
+
+                $mail->Subject = 'This is a test email';
+
+                $mail->Body = 'Email Body';
+
+                if($mail->send()){
+                    $emailSent = true;
+                } else{
+                    echo "NOT SENT";
+                }
 
             } else {
                 echo "WRONG";

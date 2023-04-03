@@ -268,8 +268,7 @@
 ### Forgot Password System - Send Email
 
 - [x] installing third part libarary iwth composer
-- [ ] how to send emails
-- [ ] sending email
+- [x] sending email
 - [ ] autoloading classes and setting up UTF-8 for emails
 - [ ] sending code over email
 - [ ] creating the rest page
