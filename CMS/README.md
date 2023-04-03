@@ -271,7 +271,7 @@
 - [x] sending email
 - [x] autoloading classes and setting up UTF-8 for emails
 - [x] sending code over email
-- [ ] creating the rest page
+- [x] creating the rest page
 - [ ] pulling data and testing it
 - [ ] unique databse values
 - [ ] updating password and token colmns
