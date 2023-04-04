@@ -278,4 +278,4 @@
 - [x] making it everything work
 - [x] update search feature to work with forgot password system code
 - [x] data base on current user
-- [ ] image fallback and comment display fix
+- [x] image fallback and comment display fix

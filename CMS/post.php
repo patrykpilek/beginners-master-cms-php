@@ -49,7 +49,7 @@ include "includes/navigation.php";
                         <p class="lead">by <a href="index.php"><?php echo $post_author ?></a></p>
                         <p><span class="glyphicon glyphicon-time"></span> <?php echo $post_date ?></p>
                         <hr>
-                        <img class="img-responsive" src="images/<?php echo $post_image; ?>" alt="<?php echo $post_title ?>">
+                        <img class="img-responsive" src="images/<?php echo imagePlaceholder($post_image); ?>" alt="<?php echo $post_title ?>">
                         <hr>
                         <p><?php echo $post_content ?></p>
                         <hr>
