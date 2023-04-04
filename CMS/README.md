@@ -275,7 +275,7 @@
 - [x] pulling data and testing it
 - [x] unique databse values
 - [x] updating password and token colmns
-- [ ] making it everything work
+- [x] making it everything work
 - [ ] update search feature to work with forgot password system code
 - [ ] data base on current user
 - [ ] image fallback and comment display fix

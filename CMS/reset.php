@@ -23,8 +23,9 @@ if ($stmt = mysqli_prepare($connection, 'SELECT username, user_email, token FROM
                 mysqli_stmt_execute($stmt);
 
                 if (mysqli_stmt_affected_rows($stmt) >= 1) {
-                    echo "IT WAS AFFECTED";
+                    redirect('/login.php');
                 }
+                mysqli_stmt_close($stmt);
             }
         }
     }
@@ -57,16 +58,13 @@ if ($stmt = mysqli_prepare($connection, 'SELECT username, user_email, token FROM
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <input name="recover-submit" class="btn btn-lg btn-primary btn-block" value="Reset Password" type="submit">
+                                        <input name="recover-submit" class="btn btn-lg btn-primary btn-block" value="Reset Password"
+                                               type="submit">
                                     </div>
 
                                     <input type="hidden" class="hide" name="token" id="token" value="">
                                 </form>
-
                             </div><!-- Body-->
-
-                            <h2>Please check your email</h2>
-
                         </div>
                     </div>
                 </div>
