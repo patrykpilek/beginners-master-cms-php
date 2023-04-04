@@ -277,5 +277,5 @@
 - [x] updating password and token colmns
 - [x] making it everything work
 - [x] update search feature to work with forgot password system code
-- [ ] data base on current user
+- [x] data base on current user
 - [ ] image fallback and comment display fix
