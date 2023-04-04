@@ -8,6 +8,7 @@ if (ifItIsMethod('post')) {
         }
     }
 }
+
 ?>
 <div class="col-md-4">
 

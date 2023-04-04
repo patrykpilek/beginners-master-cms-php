@@ -1,5 +1,5 @@
 <?php session_start() ?>
-<?php  include "includes/db.php"; ?>
+<?php include "includes/db.php"; ?>
 <?php include "includes/header.php"; ?>
 
 <!-- Navigation -->
@@ -15,13 +15,13 @@
 
             $per_page = 4;
 
-            if(isset($_GET['page'])) {
+            if (isset($_GET['page'])) {
                 $page = $_GET['page'];
             } else {
                 $page = "";
             }
 
-            if($page == "" || $page == 1) {
+            if ($page == "" || $page == 1) {
                 $page_1 = 0;
             } else {
                 $page_1 = ($page * $per_page) - $per_page;
@@ -36,21 +36,21 @@
             $find_count = mysqli_query($connection, $post_query_count);
             $count = mysqli_num_rows($find_count);
 
-            if($count < 1) {
+            if ($count < 1) {
                 echo "<h1 class='text-center'>No posts available</h1>";
             } else {
-                $count  = ceil($count / $per_page);
+                $count = ceil($count / $per_page);
 
                 $post_query_status = "SELECT * FROM posts WHERE post_status = 'published' LIMIT $page_1, $per_page";
                 $all_published_post = mysqli_query($connection, $post_query_status);
 
-                while($row = mysqli_fetch_assoc($all_published_post)) {
+                while ($row = mysqli_fetch_assoc($all_published_post)) {
                     $post_id = $row['post_id'];
                     $post_title = $row['post_title'];
                     $post_user = $row['post_user'];
                     $post_date = $row['post_date'];
                     $post_image = $row['post_image'];
-                    $post_content = substr($row['post_content'],0,400);
+                    $post_content = substr($row['post_content'], 0, 400);
 
                     ?>
                     <!-- First Blog Post -->
@@ -63,11 +63,12 @@
                     <p><span class="glyphicon glyphicon-time"></span> <?php echo $post_date ?></p>
                     <hr>
                     <a href="post/<?php echo $post_id; ?>">
-                        <img class="img-responsive" src="/admin/images/<?php echo $post_image;?>" alt="<?php echo $post_title ?>">
+                        <img class="img-responsive" src="/admin/images/<?php echo imagePlaceholder($post_image); ?>" alt="<?php echo $post_title ?>">
                     </a>
                     <hr>
                     <p><?php echo $post_content ?></p>
-                    <a class="btn btn-primary" href="post/<?php echo $post_id; ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <a class="btn btn-primary" href="post/<?php echo $post_id; ?>">Read More <span
+                                class="glyphicon glyphicon-chevron-right"></span></a>
                     <hr>
                 <?php }
             }
@@ -85,10 +86,10 @@
         <?php
         $number_list = array();
 
-        for($i = 1; $i <= $count; $i++) {
-            if($i == $page) {
+        for ($i = 1; $i <= $count; $i++) {
+            if ($i == $page) {
                 echo "<li><a class='active_link' href='index.php?page={$i}'>{$i}</a></li>";
-            }  else {
+            } else {
                 echo "<li><a href='index.php?page={$i}'>{$i}</a></li>";
             }
         }
@@ -97,7 +98,7 @@
 
     <!-- Footer -->
     <?php include "includes/footer.php"; ?>
-<!-- /.container -->
+    <!-- /.container -->
 
 
 
