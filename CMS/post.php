@@ -6,6 +6,7 @@ include "includes/navigation.php";
 
 if (isset($_POST['liked'])) {
     $post_id = $_POST['post_id'];
+    $user_id = $_POST['user_id'];
 
     // FETCHING THE RIGHT POST
     $query = "SELECT * FROM posts WHERE post_id = $post_id";
@@ -15,6 +16,10 @@ if (isset($_POST['liked'])) {
 
     // UPDATE - INCREMENTING WITH LIKES
     mysqli_query($connection, "UPDATE posts SET likes = $likes + 1 WHERE post_id = $post_id");
+
+    // CREATE LIKES FOR POST
+    mysqli_query($connection, "INSERT INTO likes(user_id, post_id) VALUES($user_id, $post_id)");
+    exit();
 
 }
 

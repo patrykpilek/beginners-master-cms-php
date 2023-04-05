@@ -287,7 +287,7 @@
 - [x] setting up the like AJAX request
 - [x] fetching the posts
 - [x] updating post with likes
-- [ ] creating our first like
+- [x] creating our first like
 - [ ] unliking posts
 - [ ] creating a helper function to the get the logged-in user id - part 1
 - [ ] creating a helper function to the get the logged-in user id - part 1
