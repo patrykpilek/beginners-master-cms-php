@@ -53,6 +53,13 @@ include "includes/navigation.php";
                         <hr>
                         <p><?php echo $post_content ?></p>
                         <hr>
+                        <div class="row">
+                            <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-thumbs-up"> Like</span></a></p>
+                        </div>
+                        <div class="row">
+                            <p class="pull-right">Like: 10</p>
+                        </div>
+                        <div class="clearfix"></div>
                     <?php }
                     ?>
 

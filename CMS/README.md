@@ -279,3 +279,20 @@
 - [x] update search feature to work with forgot password system code
 - [x] data base on current user
 - [x] image fallback and comment display fix
+
+### Post Likes
+
+- [x] creating the like button
+- [ ] attaching the click event to the button 
+- [ ] setting up the like AJAX request
+- [ ] fetching the posts
+- [ ] updating post with likes
+- [ ] creating our first like
+- [ ] unliking posts
+- [ ] creating a helper function to the get the logged-in user id - part 1
+- [ ] creating a helper function to the get the logged-in user id - part 1
+- [ ] creating a helper function to detect if the user likes a specific post
+- [ ] updating our like butto to be more dynamic
+- [ ] fetching all likes in the post
+- [ ] finishing likes
+- [ ] let's add a tooltip feature
