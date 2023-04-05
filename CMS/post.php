@@ -49,12 +49,12 @@ include "includes/navigation.php";
                         <p class="lead">by <a href="index.php"><?php echo $post_author ?></a></p>
                         <p><span class="glyphicon glyphicon-time"></span> <?php echo $post_date ?></p>
                         <hr>
-                        <img class="img-responsive" src="images/<?php echo imagePlaceholder($post_image); ?>" alt="<?php echo $post_title ?>">
+                        <img class="img-responsive" src="/images/<?php echo imagePlaceholder($post_image); ?>" alt="<?php echo $post_title ?>">
                         <hr>
                         <p><?php echo $post_content ?></p>
                         <hr>
                         <div class="row">
-                            <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-thumbs-up"> Like</span></a></p>
+                            <p class="pull-right"><a href="#" class="like"><span class="glyphicon glyphicon-thumbs-up"> Like</span></a></p>
                         </div>
                         <div class="row">
                             <p class="pull-right">Like: 10</p>
@@ -159,3 +159,12 @@ include "includes/navigation.php";
     <!-- Footer -->
     <?php include "includes/footer.php"; ?>
     <!-- /.container -->
+
+    <script>
+        $(document).ready(function () {
+            $('.like').click(function () {
+                console.log("It Works")
+            });
+
+        });
+    </script>

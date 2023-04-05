@@ -283,7 +283,7 @@
 ### Post Likes
 
 - [x] creating the like button
-- [ ] attaching the click event to the button 
+- [x] attaching the click event to the button 
 - [ ] setting up the like AJAX request
 - [ ] fetching the posts
 - [ ] updating post with likes
