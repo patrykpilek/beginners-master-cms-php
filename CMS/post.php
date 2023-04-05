@@ -4,8 +4,18 @@ include "includes/db.php";
 include "includes/header.php";
 include "includes/navigation.php";
 
-if(isset($_POST['liked'])) {
-    echo "<h1>It works</h1>";
+if (isset($_POST['liked'])) {
+    $post_id = $_POST['post_id'];
+
+    // FETCHING THE RIGHT POST
+    $query = "SELECT * FROM posts WHERE post_id = $post_id";
+    $postResult = mysqli_query($connection, $query);
+    $post = mysqli_fetch_array($postResult);
+    $likes = $post['likes'];
+
+    if(mysqli_num_rows($postResult) >= 1) {
+        echo $post['post_id'];
+    }
 }
 
 ?>
@@ -170,7 +180,7 @@ if(isset($_POST['liked'])) {
             let user_id = 5;
 
             // LIKING
-            $('.like').click(function(){
+            $('.like').click(function () {
                 $.ajax({
                     url: "/post.php?p_id=<?php echo $the_post_id; ?>",
                     type: 'post',
