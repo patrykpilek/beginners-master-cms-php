@@ -284,7 +284,7 @@
 
 - [x] creating the like button
 - [x] attaching the click event to the button 
-- [ ] setting up the like AJAX request
+- [x] setting up the like AJAX request
 - [ ] fetching the posts
 - [ ] updating post with likes
 - [ ] creating our first like
