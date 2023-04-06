@@ -280,5 +280,9 @@ function loggedInUserId()
 {
     if (isLoggedIn()) {
         $result = query("SELECT * FROM users WHERE username='" . $_SESSION['username'] . "'");
+        confirmQuery($result);
+        $user = mysqli_fetch_array($result);
+        return mysqli_num_rows($result) >= 1 ? $user['user_id'] : false;
     }
+    return false;
 }
