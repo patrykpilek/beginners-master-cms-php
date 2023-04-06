@@ -23,6 +23,24 @@ if (isset($_POST['liked'])) {
 
 }
 
+if (isset($_POST['unliked'])) {
+    $post_id = $_POST['post_id'];
+    $user_id = $_POST['user_id'];
+
+    // FETCHING THE RIGHT POST
+    $query = "SELECT * FROM posts WHERE post_id = $post_id";
+    $postResult = mysqli_query($connection, $query);
+    $post = mysqli_fetch_array($postResult);
+    $likes = $post['likes'];
+
+    // DELETE LIKES
+    mysqli_query($connection, "DELETE FROM likes WHERE post_id = $post_id AND user_id = $user_id");
+
+    // UPDATE WITH DECREMENTING WITH LIKES
+    mysqli_query($connection, "UPDATE posts SET likes = $likes - 1 WHERE post_id = $post_id");
+    exit();
+}
+
 ?>
 
 <!-- Page Content -->
@@ -74,6 +92,9 @@ if (isset($_POST['liked'])) {
                         <hr>
                         <div class="row">
                             <p class="pull-right"><a href="#" class="like"><span class="glyphicon glyphicon-thumbs-up"> Like</span></a></p>
+                        </div>
+                        <div class="row">
+                            <p class="pull-right"><a href="#" class="unlike"><span class="glyphicon glyphicon-thumbs-down"> Unlike</span></a></p>
                         </div>
                         <div class="row">
                             <p class="pull-right">Like: 10</p>
@@ -197,5 +218,17 @@ if (isset($_POST['liked'])) {
                 });
             });
 
+            // UNLIKING
+            $('.unlike').click(function () {
+                $.ajax({
+                    url: "/post.php?p_id=<?php echo $the_post_id; ?>",
+                    type: 'post',
+                    data: {
+                        'unliked': 1,
+                        'post_id': post_id,
+                        'user_id': user_id
+                    }
+                });
+            });
         });
     </script>
