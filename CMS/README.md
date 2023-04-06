@@ -289,7 +289,7 @@
 - [x] updating post with likes
 - [x] creating our first like
 - [x] unliking posts
-- [ ] creating a helper function to the get the logged-in user id - part 1
+- [x] creating a helper function to the get the logged-in user id - part 1
 - [ ] creating a helper function to the get the logged-in user id - part 2
 - [ ] creating a helper function to detect if the user likes a specific post
 - [ ] updating our like butto to be more dynamic

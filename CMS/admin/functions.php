@@ -268,3 +268,17 @@ function imagePlaceholder($image = '')
         return $image;
     }
 }
+
+function query($query)
+{
+    global $connection;
+    return mysqli_query($connection, $query);
+}
+
+
+function loggedInUserId()
+{
+    if (isLoggedIn()) {
+        $result = query("SELECT * FROM users WHERE username='" . $_SESSION['username'] . "'");
+    }
+}
