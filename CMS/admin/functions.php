@@ -292,3 +292,10 @@ function userLikedThisPost($post_id)
     confirmQuery($result);
     return mysqli_num_rows($result) >= 1 ? true : false;
 }
+
+function getPostlikes($post_id)
+{
+    $result = query("SELECT * FROM likes WHERE post_id=$post_id");
+    confirmQuery($result);
+    echo mysqli_num_rows($result);
+}
