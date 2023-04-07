@@ -300,7 +300,7 @@
 ### Creating A Separete Admin For Logged In Users
 
 - [x] refactoring dashboard a little with some helper functions
-- [ ] getting all the users posts
+- [x] getting all the users posts
 - [ ] getting all the users comments
 - [ ] getting all the users categories
 - [ ] getting all the users published and draft posts

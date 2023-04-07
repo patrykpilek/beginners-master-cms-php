@@ -2,7 +2,7 @@
 ob_start();
 session_start();
 include "../includes/db.php";
-include "functions.php";
+include "./functions.php";
 
 if(!isset($_SESSION['user_role'])) {
     header("location: ../index.php");

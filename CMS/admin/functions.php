@@ -19,6 +19,10 @@ function fetchRecords($result)
     return mysqli_fetch_array($result);
 }
 
+function count_records($result){
+    return mysqli_num_rows($result);
+}
+
 function insert_categories()
 {
     global $connection;
@@ -308,4 +312,8 @@ function getPostlikes($post_id)
 
 function get_user_name(){
     return isset($_SESSION['username']) ? $_SESSION['username'] : null;
+}
+
+function get_all_user_posts(){
+    return query("SELECT * FROM posts WHERE user_id=".loggedInUserId()."");
 }

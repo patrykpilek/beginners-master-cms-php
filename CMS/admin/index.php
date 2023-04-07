@@ -1,4 +1,9 @@
-<?php include "includes/admin_header.php"; ?>
+<?php
+include "includes/admin_header.php";
+
+$post_count = count_records(get_all_user_posts());
+
+?>
 
 <div id="wrapper">
     <!-- Navigation -->
@@ -12,14 +17,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        Welcome to admin
-                        <small>
-                            <?php
-                                if(isset($_SESSION['username'])) {
-                                    echo $_SESSION['username'];
-                                }
-                            ?>
-                        </small>
+                        <small>Role: Admin</small>
+                        Welcome to admin <?php echo strtoupper(get_user_name()); ?>
                     </h1>
                 </div>
             </div>
@@ -33,10 +32,7 @@
                                     <i class="fa fa-file-text fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <?php
-                                        $post_count = recordCount('posts');
-                                        echo  "<div class='huge'>{$post_count}</div>"
-                                    ?>
+                                    <?php echo  "<div class='huge'>".$post_count."</div>" ?>
                                     <div>Posts</div>
                                 </div>
                             </div>
@@ -59,8 +55,8 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <?php
-                                        $comment_count = recordCount('comments');
-                                        echo  "<div class='huge'>{$comment_count}</div>"
+                                    $comment_count = recordCount('comments');
+                                    echo "<div class='huge'>{$comment_count}</div>"
                                     ?>
                                     <div>Comments</div>
                                 </div>
@@ -84,8 +80,8 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <?php
-                                        $user_count = recordCount('users');
-                                        echo  "<div class='huge'>{$user_count}</div>"
+                                    $user_count = recordCount('users');
+                                    echo "<div class='huge'>{$user_count}</div>"
                                     ?>
                                     <div> Users</div>
                                 </div>
@@ -109,8 +105,8 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <?php
-                                        $category_count = recordCount('categories');
-                                        echo  "<div class='huge'>{$category_count}</div>"
+                                    $category_count = recordCount('categories');
+                                    echo "<div class='huge'>{$category_count}</div>"
                                     ?>
                                     <div>Categories</div>
                                 </div>
@@ -130,7 +126,7 @@
             <div class="row">
 
                 <script type="text/javascript">
-                    google.charts.load('current', {'packages':['bar']});
+                    google.charts.load('current', {'packages': ['bar']});
                     google.charts.setOnLoadCallback(drawChart);
 
                     function drawChart() {
@@ -143,10 +139,10 @@
                             $unapproved_comment_count = checkStatus('comments', 'comment_status', 'unapproved');
                             $subscriber_count = checkUserRole('users', 'user_role', 'subscriber');
 
-                            $element_text = ['All Posts', 'Active Posts', 'Draft Posts', 'Comments', 'Pending Comments', 'Users','Subscribers', 'Categories'];
+                            $element_text = ['All Posts', 'Active Posts', 'Draft Posts', 'Comments', 'Pending Comments', 'Users', 'Subscribers', 'Categories'];
                             $element_count = [$post_count, $post_published_count, $post_draft_count, $comment_count, $unapproved_comment_count, $user_count, $subscriber_count, $category_count];
 
-                            for($i =0; $i < 8; $i++) {
+                            for ($i = 0; $i < 8; $i++) {
                                 echo "['{$element_text[$i]}'" . "," . "{$element_count[$i]}],";
                             }
                             ?>
