@@ -295,4 +295,4 @@
 - [x] updating our like button to be more dynamic
 - [x] fetching all likes in the post
 - [x] finishing likes
-- [ ] let's add a tooltip feature
+- [x] let's add a tooltip feature
