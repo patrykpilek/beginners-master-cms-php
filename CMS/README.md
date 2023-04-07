@@ -294,5 +294,5 @@
 - [x] creating a helper function to detect if the user likes a specific post
 - [x] updating our like button to be more dynamic
 - [x] fetching all likes in the post
-- [ ] finishing likes
+- [x] finishing likes
 - [ ] let's add a tooltip feature
