@@ -1,5 +1,17 @@
 <?php
 
+function redirect($location)
+{
+    header("Location:" . $location);
+    exit;
+}
+
+function query($query)
+{
+    global $connection;
+    return mysqli_query($connection, $query);
+}
+
 function insert_categories()
 {
     global $connection;
@@ -60,12 +72,6 @@ function confirmQuery($result)
     if (!$result) {
         die("QUERY FAILED . " . mysqli_error($connection));
     }
-}
-
-function redirect($location)
-{
-    header("Location:" . $location);
-    exit;
 }
 
 function users_online()
@@ -267,4 +273,29 @@ function imagePlaceholder($image = '')
     } else {
         return $image;
     }
+}
+
+function loggedInUserId()
+{
+    if (isLoggedIn()) {
+        $result = query("SELECT * FROM users WHERE username='" . $_SESSION['username'] . "'");
+        confirmQuery($result);
+        $user = mysqli_fetch_array($result);
+        return mysqli_num_rows($result) >= 1 ? $user['user_id'] : false;
+    }
+    return false;
+}
+
+function userLikedThisPost($post_id)
+{
+    $result = query("SELECT * FROM likes WHERE user_id=" . loggedInUserId() . " AND post_id={$post_id}");
+    confirmQuery($result);
+    return mysqli_num_rows($result) >= 1 ? true : false;
+}
+
+function getPostlikes($post_id)
+{
+    $result = query("SELECT * FROM likes WHERE post_id=$post_id");
+    confirmQuery($result);
+    echo mysqli_num_rows($result);
 }

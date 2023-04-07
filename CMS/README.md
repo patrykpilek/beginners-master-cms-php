@@ -2,7 +2,7 @@
 
 ### Front End
 
-- [x] adding our assets / working structure 
+- [x] adding our assets / working structure
 - [x] creating database and category table for the cms
 - [x] connecting to the database with php
 - [x] making our files reusable
@@ -118,7 +118,7 @@
 - [x] adding dynamic category selection for edit post page
 - [x] adding extra element to dashboard
 - [x] adding the WYSIWYG editor
-- [x] adding links to post images and read more button 
+- [x] adding links to post images and read more button
 - [x] adding post update notification
 - [x] adding post edit link in front end
 - [x] adding bulk option posts, part 1
@@ -150,7 +150,7 @@
 
 - [x] relating posts to their authors part 1
 - [x] relating posts to their authors part 2
-- [x] cloning posts 
+- [x] cloning posts
 - [x] adding a loader to the cms admin
 - [x] adding views functionality to posts
 - [x] resetting views feature
@@ -175,7 +175,7 @@
 
 ### Simple Password Encrypting and Login System
 
-- [x] explanation of new function and implementation 
+- [x] explanation of new function and implementation
 - [x] login in users with new system
 - [x] adding new system to add users in admin
 - [x] adding new password system to edit user page part 1
@@ -184,7 +184,7 @@
 
 ### Improved Comment System Count and Display
 
-- [x] comment count and amount display 
+- [x] comment count and amount display
 - [x] creating a link in comment count and sending a GET request
 - [x] comments page to specific posts
 - [x] deleting in the same page
@@ -279,3 +279,20 @@
 - [x] update search feature to work with forgot password system code
 - [x] data base on current user
 - [x] image fallback and comment display fix
+
+### Post Likes
+
+- [x] creating the like button
+- [x] attaching the click event to the button
+- [x] setting up the like AJAX request
+- [x] fetching the posts
+- [x] updating post with likes
+- [x] creating our first like
+- [x] unliking posts
+- [x] creating a helper function to the get the logged-in user id - part 1
+- [x] creating a helper function to the get the logged-in user id - part 2
+- [x] creating a helper function to detect if the user likes a specific post
+- [x] updating our like button to be more dynamic
+- [x] fetching all likes in the post
+- [x] finishing likes
+- [x] let's add a tooltip feature
