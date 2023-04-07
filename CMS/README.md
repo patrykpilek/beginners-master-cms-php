@@ -301,7 +301,7 @@
 
 - [x] refactoring dashboard a little with some helper functions
 - [x] getting all the users posts
-- [ ] getting all the users comments
+- [x] getting all the users comments
 - [ ] getting all the users categories
 - [ ] getting all the users published and draft posts
 - [ ] getting all the users post approved and unapproved comments
