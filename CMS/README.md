@@ -292,7 +292,7 @@
 - [x] creating a helper function to the get the logged-in user id - part 1
 - [x] creating a helper function to the get the logged-in user id - part 2
 - [x] creating a helper function to detect if the user likes a specific post
-- [ ] updating our like butto to be more dynamic
+- [x] updating our like button to be more dynamic
 - [ ] fetching all likes in the post
 - [ ] finishing likes
 - [ ] let's add a tooltip feature
