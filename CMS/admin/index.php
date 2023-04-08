@@ -4,6 +4,8 @@ include "includes/admin_header.php";
 $post_count = count_records(get_all_user_posts());
 $comment_count = count_records(get_all_posts_user_comments());
 $category_count = count_records(get_all_user_categories());
+$post_published_count = count_records(get_all_user_published_posts());
+$post_draft_count = count_records(get_all_user_draft_posts());
 
 ?>
 
@@ -105,8 +107,6 @@ $category_count = count_records(get_all_user_categories());
                             ['Data', 'Count'],
                             <?php
 
-                            $post_published_count = checkStatus('posts', 'post_status', 'published');
-                            $post_draft_count = checkStatus('posts', 'post_status', 'draft');
                             $unapproved_comment_count = checkStatus('comments', 'comment_status', 'unapproved');
                             $subscriber_count = checkUserRole('users', 'user_role', 'subscriber');
 

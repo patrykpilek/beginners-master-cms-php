@@ -303,5 +303,5 @@
 - [x] getting all the users posts
 - [x] getting all the users comments
 - [x] getting all the users categories
-- [ ] getting all the users published and draft posts
+- [x] getting all the users published and draft posts
 - [ ] getting all the users post approved and unapproved comments
