@@ -3,6 +3,20 @@ include "includes/db.php";
 include "includes/header.php";
 include "includes/navigation.php";
 
+if (isset($_GET['lang']) && !empty($_GET['lang'])) {
+    $_SESSION['lang'] = $_GET['lang'];
+
+    if (isset($_SESSION['lang']) && $_SESSION['lang'] != $_GET['lang']) {
+        echo "<script type='text/javascript'> location.reload(); </script>";
+    }
+
+    if(isset($_SESSION['lang'])){
+        include "includes/languages/".$_SESSION['lang'].".php";
+    } else {
+        include "includes/languages/en.php";
+    }
+}
+
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $username = trim($_POST['username']);
     $email = trim($_POST['email']);

@@ -310,5 +310,5 @@
 
 - [x] creating language files
 - [x] creating the form part 1
-- [ ] creating the form part 2
+- [x] creating the form part 2
 - [ ] creating the form part 3
