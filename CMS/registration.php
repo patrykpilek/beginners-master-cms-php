@@ -3,7 +3,7 @@ include "includes/db.php";
 include "includes/header.php";
 include "includes/navigation.php";
 
-if($_SERVER['REQUEST_METHOD'] == "POST") {
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $username = trim($_POST['username']);
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
@@ -53,6 +53,16 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <!-- Page Content -->
 <div class="container">
+
+    <form method="get" class="navbar-form navbar-right" action="" id="language_form">
+        <div class="form-group">
+            <select name="lang" class="form-control" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+            </select>
+        </div>
+    </form>
+
     <section id="login">
         <div class="container">
             <div class="row">
@@ -71,7 +81,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
                                 <label for="email" class="sr-only">Email</label>
                                 <input type="email" name="email" id="email" class="form-control" placeholder="somebody@example.com"
                                        autocomplete="on"
-                                       value="<?php echo isset($email) ? $email : '' ?>" >
+                                       value="<?php echo isset($email) ? $email : '' ?>">
                                 <p class="text-danger"><?php echo isset($error['email']) ? $error['email'] : '' ?></p>
                             </div>
                             <div class="form-group">
@@ -90,5 +100,11 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
     </section>
 
     <hr>
+
+    <script>
+        function changeLanguage() {
+            document.getElementById('language_form').submit();
+        }
+    </script>
 
     <?php include "includes/footer.php"; ?>
