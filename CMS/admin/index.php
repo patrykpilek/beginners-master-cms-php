@@ -6,6 +6,8 @@ $comment_count = count_records(get_all_posts_user_comments());
 $category_count = count_records(get_all_user_categories());
 $post_published_count = count_records(get_all_user_published_posts());
 $post_draft_count = count_records(get_all_user_draft_posts());
+$approved_comment_count = count_records(get_all_user_approved_posts_comments());
+$unapproved_comment_count = count_records(get_all_user_unapproved_posts_comments());
 
 ?>
 
@@ -107,13 +109,10 @@ $post_draft_count = count_records(get_all_user_draft_posts());
                             ['Data', 'Count'],
                             <?php
 
-                            $unapproved_comment_count = checkStatus('comments', 'comment_status', 'unapproved');
-                            $subscriber_count = checkUserRole('users', 'user_role', 'subscriber');
+                            $element_text = ['All Posts', 'Active Posts', 'Draft Posts', 'Comments', 'Approved Comments', 'Pending Comments', 'Categories'];
+                            $element_count = [$post_count, $post_published_count, $post_draft_count, $comment_count, $approved_comment_count, $unapproved_comment_count, $category_count];
 
-                            $element_text = ['All Posts', 'Active Posts', 'Draft Posts', 'Comments', 'Pending Comments', 'Categories'];
-                            $element_count = [$post_count, $post_published_count, $post_draft_count, $comment_count, $unapproved_comment_count, $category_count];
-
-                            for ($i = 0; $i < 6; $i++) {
+                            for ($i = 0; $i < 7; $i++) {
                                 echo "['{$element_text[$i]}'" . "," . "{$element_count[$i]}],";
                             }
                             ?>
