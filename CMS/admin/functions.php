@@ -325,3 +325,8 @@ function get_all_posts_user_comments()
 {
     return query("SELECT * FROM posts INNER JOIN comments ON posts.post_id = comments.comment_post_id WHERE user_id=" . loggedInUserId() . "");
 }
+
+function get_all_user_categories()
+{
+    return query("SELECT * FROM categories WHERE user_id=" . loggedInUserId() . "");
+}
