@@ -305,3 +305,10 @@
 - [x] getting all the users categories
 - [x] getting all the users published and draft posts
 - [x] getting all the users post approved and unapproved comments
+
+### Multi-Language
+
+- [x] creating language files
+- [ ] creating the form part 1
+- [ ] creating the form part 2
+- [ ] creating the form part 3
