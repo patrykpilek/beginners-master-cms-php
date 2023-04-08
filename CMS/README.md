@@ -296,3 +296,12 @@
 - [x] fetching all likes in the post
 - [x] finishing likes
 - [x] let's add a tooltip feature
+
+### Creating A Separete Admin For Logged In Users
+
+- [x] refactoring dashboard a little with some helper functions
+- [x] getting all the users posts
+- [x] getting all the users comments
+- [x] getting all the users categories
+- [x] getting all the users published and draft posts
+- [x] getting all the users post approved and unapproved comments

@@ -11,13 +11,13 @@
     </div>
     <!-- Top Menu Items -->
     <ul class="nav navbar-right top-nav">
-<!--        <li><a href="">Users Online: --><?php //echo users_online(); ?><!--</a></li>-->
+        <!--        <li><a href="">Users Online: --><?php //echo users_online(); ?><!--</a></li>-->
         <li><a href="">Users Online: <span class="usersonline"></span></a></li>
         <li><a href="../index.php">HOME SITE</a></li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>
                 <?php
-                if(isset($_SESSION['username'])) {
+                if (isset($_SESSION['username'])) {
                     echo $_SESSION['username'];
                 }
                 ?>
@@ -37,11 +37,17 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
             <li>
-                <a href="/admin/index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                <a href="/admin/index.php"><i class="fa fa-fw fa-dashboard"></i> My Data</a>
             </li>
+
+            <?php if (is_admin()): ?>
+                <li>
+                    <a href="/admin/dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                </li>
+            <?php endif ?>
             <li>
                 <a href="javascript:;" data-toggle="collapse" data-target="#posts_dropdown"><i class="fa fa-fw fa-arrows-v"></i> Posts <i
-                            class="fa fa-fw fa-caret-down"></i></a>
+                        class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="posts_dropdown" class="collapse">
                     <li>
                         <a href="/admin/posts.php">View All Posts</a>
@@ -59,7 +65,7 @@
             </li>
             <li>
                 <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Users <i
-                            class="fa fa-fw fa-caret-down"></i></a>
+                        class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="demo" class="collapse">
                     <li>
                         <a href="/admin/users.php">View All Users</a>
